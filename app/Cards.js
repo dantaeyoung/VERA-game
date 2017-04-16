@@ -12,13 +12,17 @@ Cards.dataReady = function() {
 };
 
 Cards.cardToHighlight = function(cardId) {
-    return globalModel.data.cards.impacts[cardId]['_Highlight'];
+    if(cardId) {
+      return globalModel.data.cards.impacts[cardId]['_Highlight'];
+    }
 }
 
 Cards.makeHtmlCards = function(carddata) {
   _.each(carddata.descriptions, function(v, k) {
     console.log(v);
-    var thisCard = $("<div id=" + k + " class=card>" + v['REFORM TITLE'] + "</div>");
+    var thisCard = $("<div id=" + k + " class=card><span class='title'>" + v['REFORM TITLE'] + "</span>\
+      <span class='short_description'>" + v['SHORT DESCRIPTION'] + "</span>\
+      </div>");
     thisCard.appendTo("#cards");
 
     // bind clicks

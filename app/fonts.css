@@ -12,4 +12,10 @@
     url('../assets/Fonts/GT-Walsheim-Thin/GT-Walsheim-Thin.woff') format('woff'), 
     url('../assets/Fonts/GT-Walsheim-Thin/GT-Walsheim-Thin.ttf')  format('truetype');
 }
+@font-face {
+  font-family: 'GT-Walsheim-Regular';
+  src: url('../assets/Fonts/GT-Walsheim-Regular/GT-Walsheim-Regular.eot') format('eot'), 
+    url('../assets/Fonts/GT-Walsheim-Regular/GT-Walsheim-Regular.woff') format('woff'), 
+    url('../assets/Fonts/GT-Walsheim-Regular/GT-Walsheim-Regular.ttf')  format('truetype');
+}
 
