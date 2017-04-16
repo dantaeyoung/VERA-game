@@ -4,7 +4,15 @@ Pipeline.linkWidthMin = 3.0;
 Pipeline.linkColor = "#AAA";
 Pipeline.defaultOpacity = 0.05;
 
-
+Pipeline.loopFlow = function() {
+    var lines = Snap.selectAll("line")
+		lines.attr({ 'stroke-dasharray': '6,6'});
+    Snap.animate(60, 0, function( value ) {
+		    lines.attr({ 'stroke-dashoffset': value});
+    }, 2000, function() {
+      Pipeline.loopFlow(); // recursion... this goes forever
+    });
+}
  
 Pipeline.docReady = function() {
 
@@ -19,13 +27,12 @@ Pipeline.docReady = function() {
       opacity: Pipeline.defaultOpacity
     });
 
-
     Snap.animate(0,6, function( value ) {
           s.attr({ 'stroke-width': value});
     }, 1000);
-    Snap.animate(0,6, function( value ) {
-		    s.attr({ 'stroke-dasharray': '1,' + value});
-    }, 5000);
+
+    Pipeline.loopFlow();
+
 
     $("#Buttons > rect").each(function(i, e) {
       Snap("#" + e.id).mouseover(function (el) {

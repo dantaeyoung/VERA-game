@@ -8,16 +8,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .centerdiv {
 }
 
 #modeldiv {
-  position: relative;
-  width: 900px;
-  height: 500px;
+	width: 900px;
   border: 1px solid blue;
 }
 
@@ -36,6 +34,13 @@ body {
     height: 20px;
 }
 
+#scores {
+	width: 500px;
+}
+
+#scores .score {
+	display: inline;
+}
 .card {
   font-family: 'GT-Sectra-Medium', Arial, sans-serif;
   background-color: lightgray;
