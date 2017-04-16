@@ -9,17 +9,14 @@ Helpers.nameToId = function(name) {
 };
 
 Helpers.calcScore = function(array) {
-  //find largest val (add it)
-  //then add one half of each other val
-
   var score = 0;
   var highestIdx = null;
   for (var i = 0; i < array.length; i++) {
-    if (score === null) {
+    if (highestIdx === null) {
       highestIdx = i;
     } else {
-      var currentHighest = +array[highestIdx][0];
-      var otherNum = +array[i][0];
+      var currentHighest = +array[highestIdx].slice(0, -1);
+      var otherNum = +array[i].slice(-1);
       if (currentHighest < otherNum) {
         highestIdx = i;
       }
@@ -27,9 +24,9 @@ Helpers.calcScore = function(array) {
   }
   for (var j = 0; j < array.length; j++) {
     if (j === highestIdx) {
-      score += +array[j][0];
+      score += +array[j].slice(0, -1);
     } else {
-      score += (+array[j][0]) / 2;
+      score += (+array[j].slice(0, -1)) / 2;
     }
   }
   return score;

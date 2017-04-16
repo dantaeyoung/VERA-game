@@ -3,7 +3,7 @@ var Scores = {};
 Scores.updateState = function(state) {
   console.log(state.stepScores);
   _.each(state.stepScores, function(v, k) {
-    Helpers.calcScore(v);
+    v = Helpers.calcScore(v);
     $("#" + k).html(v);
   });
 
