@@ -4,17 +4,32 @@ var Model = function(data) {
   this.state = {};
   this.state.cardsPlayed = {};
   this.state.stepScores = {};
+  this.state.budget = 1000000;
+  this.state.initialScores = {
+    'average_daily_population': 500,
+    'average_los': 95,
+    'yearly_admissions': 4000
+  }
 }
 
 
 Model.prototype.playCard = function(cardId) {
   // TODO: if we don't have enough money, don't let this thing below happen
 	console.log("PLAYED CARD: " + cardId);
-  this.state.cardsPlayed[cardId] = true;  // we use boolean just because it lets us use an object as a set
-  this.updateScoreState();
-  Cards.updateState(this.state);
-  Scores.updateState(this.state);
-  Pipeline.updateState(this.state);
+  var cardCost = parseInt(this.data.cards.descriptions[cardId].COST.replace(/\$|,| /g, ""), 10);
+  console.log('cost is here =>', cardCost)
+  if (cardCost <= this.state.budget) {
+    if (!this.state.cardsPlayed[cardId]) {
+      this.state.cardsPlayed[cardId] = true;  // we use boolean just because it lets us use an object as a set
+      this.state.budget -= cardCost;
+      this.updateScoreState();
+      Cards.updateState(this.state);
+      Scores.updateState(this.state);
+      Pipeline.updateState(this.state);
+    }
+  } else {
+    console.log('ERROR: You cannot afford that measure');
+  }
 }
 
 Model.prototype.updateScoreState = function() {
@@ -28,7 +43,6 @@ Model.prototype.updateScoreState = function() {
       stepName = Helpers.nameToId(stepName);
 			if(!stepName.match(/name/)) { // skip over column if we have the name. this is annoyingly manual but due to our data constraints
 				if(!(stepName in self.state.stepScores)) { self.state.stepScores[stepName] = []; }
-				// TODO: calculating step scores should be - highest score plus 1/2 of total of all other scores
 				self.state.stepScores[stepName].push(stepVal);
 			}
     });
