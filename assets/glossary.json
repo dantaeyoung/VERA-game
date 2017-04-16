@@ -41,12 +41,12 @@
    },
    "POSTRELEASE": {
       "Word": "Release & Supervision",
-      "Definition": "",
+      "Definition": "Postrelease is the transition of an individual from custody (jail or prison) back to the community. ",
       "Mini Stat": ""
    },
    "COUNSEL": {
       "Word": "Counsel",
-      "Definition": "",
+      "Definition": "If the judge finds the defendant indigent, the judge assigns the Public Defender's Office to provide representaton of the defendant. ",
       "Mini Stat": ""
    }
 }

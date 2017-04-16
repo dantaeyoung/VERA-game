@@ -17,7 +17,7 @@ body {
 #modeldiv {
 	width: 900px;
 	height: 550px;
-  border: 5px solid black;
+  border: 10px solid #AAA;
 	border-radius: 10px;
 	position: relative;
 }

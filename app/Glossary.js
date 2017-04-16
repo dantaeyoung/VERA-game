@@ -27,19 +27,6 @@ Glossary.makeHtmlGlossary = function(glossarydata) {
 
     //// bind events
 
-    //thisCard.hover(function(e) {
-      //console.log("Highlight In " + Glossary.cardToHighlight(e.currentTarget.id));
-      //Pipeline.highlightHoverIn(Glossary.cardToHighlight(e.currentTarget.id));
-			//$("#" + e.currentTarget.id + "_LD").addClass("hovering");
-    //}, function(e) {
-      //console.log("Highlight Out " + Glossary.cardToHighlight(e.currentTarget.id));
-      //Pipeline.highlightHoverOut(Glossary.cardToHighlight(e.currentTarget.id));
-			//$("#" + e.currentTarget.id + "_LD").removeClass("hovering");
-    //});
-
-    //$(document).mousemove(function(e){
-			//$('.hovering').css({'top': e.pageY+ 0, 'left': e.pageX + 10});
-    //});
 
 
   });
