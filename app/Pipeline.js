@@ -43,11 +43,19 @@ Pipeline.docReady = function() {
     */
 
 
+    // MOUSEOVER BIND
     $("#Buttons > rect").each(function(i, e) {
+
       Snap("#" + e.id).mouseover(function (el) {
         Pipeline.highlightHoverIn(e.id.replace(/B-/, "H-"));
         console.log("HOVERING OVER " + e.id.replace(/B-/, "H-"));
       });
+
+      Snap("#" + e.id).mouseout(function (el) {
+        Pipeline.highlightHoverOut(e.id.replace(/B-/, "H-"));
+        console.log("HOVERING OUT " + e.id.replace(/B-/, "H-"));
+      });
+
     });
 
     Snap("#B-AVERAGE-DAILY-POPULATION").mouseover( function(e){
@@ -90,15 +98,18 @@ Pipeline.highlightHoverIn = function(highlight) {
   Snap.animate(Pipeline.defaultOpacity, 1, function( val ) {
         s.attr({ 'opacity': val});
   }, 300, function() {
-    Snap.animate(1, Pipeline.defaultOpacity , function( val ) {
-          s.attr({ 'opacity': val});
-    }, 500)
+    //Snap.animate(1, Pipeline.defaultOpacity , function( val ) {
+          //s.attr({ 'opacity': val});
+    //}, 500)
   })
 };
 
 Pipeline.highlightHoverOut = function(highlight) {
   var s = Pipeline.trySnap("#" + highlight);
   if(!s) return; // if snap couldn't find anything, get outta here
+  Snap.animate(1, Pipeline.defaultOpacity , function( val ) {
+        s.attr({ 'opacity': val});
+  }, 500)
 };
 
 
