@@ -23,16 +23,14 @@ Model.prototype.updateScoreState = function() {
 
   // for all the cards we have played..
   _.each(self.state.cardsPlayed, function(ignoreMe, cardName) {
-   
+
     _.each(self.data.cards.impacts[cardName], function(stepVal, stepName) {
-			if(!stepName.match(/^_/)) { // skip over column if we have the name. this is annoyingly manual but due to our data constraints
-				if(!(stepName in self.state.stepScores)) { self.state.stepScores[stepName] = 0; }
-
+      stepName = Helpers.nameToId(stepName);
+			if(!stepName.match(/name/)) { // skip over column if we have the name. this is annoyingly manual but due to our data constraints
+				if(!(stepName in self.state.stepScores)) { self.state.stepScores[stepName] = []; }
 				// TODO: calculating step scores should be - highest score plus 1/2 of total of all other scores
-				self.state.stepScores[stepName] += parseFloat(stepVal);
-
+				self.state.stepScores[stepName].push(stepVal);
 			}
     });
-
   });
 }
