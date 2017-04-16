@@ -13,7 +13,6 @@ Cards.dataReady = function() {
 
 Cards.makeHtmlCards = function(carddata) {
   _.each(carddata.descriptions, function(v, k) {
-		console.log(v);
     var thisCard = $("<div id=" + k + " class=card>" + v['REFORM TITLE'] + "</div>");
     thisCard.appendTo("#cards");
 
