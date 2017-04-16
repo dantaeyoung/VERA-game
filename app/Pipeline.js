@@ -33,6 +33,15 @@ Pipeline.docReady = function() {
 
     Pipeline.loopFlow();
 
+    /*
+    // grayscale something
+    console.log(Snap.selectAll("image"));
+    Snap("image").filter(Snap.filter.grayscale(0.5));
+    Snap.selectAll("image").attr({
+       filter: Snap.filter.grayscale(0.5) 
+     });
+    */
+
 
     $("#Buttons > rect").each(function(i, e) {
       Snap("#" + e.id).mouseover(function (el) {
@@ -83,7 +92,7 @@ Pipeline.highlightHoverIn = function(highlight) {
   }, 300, function() {
     Snap.animate(1, Pipeline.defaultOpacity , function( val ) {
           s.attr({ 'opacity': val});
-    }, 2000)
+    }, 500)
   })
 };
 
