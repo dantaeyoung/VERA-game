@@ -9,9 +9,16 @@ $(function() {
   Cards.docReady();
   Scores.docReady();
 
-  $.when($.getJSON("assets/data.json"))
-    .then(function(json) {
-      globalData = json;
+  $.when(
+		$.getJSON("assets/data.json"),
+		$.getJSON("assets/card_impacts.json"),
+		$.getJSON("assets/card_descriptions.json")
+	)
+    .done(function(data, impacts, descriptions) {
+      globalData = {};
+      globalData.cards = {};
+			globalData.cards.impacts = impacts[0];
+			globalData.cards.descriptions = descriptions[0];
 
       globalModel = new Model(globalData);
 

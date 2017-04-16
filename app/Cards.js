@@ -12,16 +12,14 @@ Cards.dataReady = function() {
 };
 
 Cards.makeHtmlCards = function(carddata) {
-  carddata.forEach(function(e) {
-    var thisCard = $("<div id=" + e.id + " class=card>" + e.title + "</div>");
+  _.each(carddata.descriptions, function(v, k) {
+		console.log(v);
+    var thisCard = $("<div id=" + k + " class=card>" + v['REFORM TITLE'] + "</div>");
     thisCard.appendTo("#cards");
 
     thisCard.click(function(e) {
-      console.log("card lcick!");
-      console.log(e.target.id);
-
+      console.log("clicked " + e.target.id + "!");
       globalModel.playCard(e.target.id);
-
     });
 
   });

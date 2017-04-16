@@ -19,6 +19,25 @@
     "card-C": { "step-A": "1", "step-B": "4", "step-C": 0, "score-LOS" : 1, "score-NUM": 3 },
     "card-D": { "step-A": "0", "step-B": "1", "step-C": 7, "score-LOS" : 0, "score-NUM": 1 },
     "card-E": { "step-A": "2", "step-B": "2", "step-C": 1, "score-LOS" : 3, "score-NUM": 0 }
-  }
-
+  },
+  "scoreMatrix": {
+		"CARD-01": { "Decision Points (Full name)":"Arrest 1A: Increased Use of Citations or Summonses", "Yearly Admissions ":"6%", "Average LOS":"1%", "Average Daily Population":"1%"},
+		"CARD-02": { "Decision Points (Full name)":"Arrest 2A: Implement Law Enforcement Diversion", "Yearly Admissions ":"4%", "Average LOS":"0%", "Average Daily Population":"1%"},
+		"CARD-03": { "Decision Points (Full name)":"Charge 1A: Implement Deferred Prosecution", "Yearly Admissions ":"0%", "Average LOS":"1%", "Average Daily Population":"2%"},
+		"CARD-04": { "Decision Points (Full name)":"Charge 1A: Expedited Plea Program", "Yearly Admissions ":"0%", "Average LOS":"2%", "Average Daily Population":"2%"},
+		"CARD-05": { "Decision Points (Full name)":"Assignment of Counsel 1A: Counsel at First Appearance", "Yearly Admissions ":"0%", "Average LOS":"5%", "Average Daily Population":"3%"},
+		"CARD-06": { "Decision Points (Full name)":"Assignment of Counsel 2A: Connected with Social Worker", "Yearly Admissions ":"0%", "Average LOS":"2%", "Average Daily Population":"2%"},
+		"CARD-07": { "Decision Points (Full name)":"Pretrial/Bail 1A: Variety of Pretrial Supervision Available for Qualifying Defendants", "Yearly Admissions ":"2%", "Average LOS":"3%", "Average Daily Population":"5%"},
+		"CARD-08": { "Decision Points (Full name)":"Pretrial/Bail 2A: Implement Pretrial Risk Assessment Instrument & No Cash Bail", "Yearly Admissions ":"2%", "Average LOS":"3%", "Average Daily Population":"10%"},
+		"CARD-09": { "Decision Points (Full name)":"Pretrial/Bail 3A: Court Date Reminders", "Yearly Admissions ":"3%", "Average LOS":"0%", "Average Daily Population":"2%"},
+		"CARD-10": { "Decision Points (Full name)":"Case Processing 1A: Efforts Made to Reduce Case Backlog", "Yearly Admissions ":"0%", "Average LOS":"4%", "Average Daily Population":"1%"},
+		"CARD-11": { "Decision Points (Full name)":"Case Processing 2A: Process to Review Continuances", "Yearly Admissions ":"0%", "Average LOS":"3%", "Average Daily Population":"1%"},
+		"CARD-12": { "Decision Points (Full name)":"Disposition & Sentencing 1B: No Alternative to Incarceration Programming on Job Readiness", "Yearly Admissions ":"0%", "Average LOS":"0%", "Average Daily Population":"5%"},
+		"CARD-13": { "Decision Points (Full name)":"Disposition & Sentencing 2A: Implement Alternative to Incarceration Programs - Treatment", "Yearly Admissions ":"0%", "Average LOS":"0%", "Average Daily Population":"5%"},
+		"CARD-14": { "Decision Points (Full name)":"Post-Release & Reentry 1A: Offer Risk-Based Probation Supervision", "Yearly Admissions ":"10%", "Average LOS":"0%", "Average Daily Population":"0%"},
+		"CARD-15": { "Decision Points (Full name)":"Post-Release & Reentry 2A: Graduated Response Sanctions", "Yearly Admissions ":"3%", "Average LOS":"1%", "Average Daily Population":"1%"},
+		"CARD-16": { "Decision Points (Full name)":"Post-Release & Reentry 3A: Hold Warrant Resolution Events", "Yearly Admissions ":"5%", "Average LOS":"0%", "Average Daily Population":"0%"},
+		"CARD-17": { "Decision Points (Full name)":"Post-Release & Reentry 4A: Implement Program of Peer Navigators", "Yearly Admissions ":"5%", "Average LOS":"0%", "Average Daily Population":"0%"},
+		"CARD-18": { "Decision Points (Full name)":"Community 3A: Convene a Justice Impacted Advisory Board", "Yearly Admissions ":"1%", "Average LOS":"1%", "Average Daily Population":"1%"}
+	}
 }
