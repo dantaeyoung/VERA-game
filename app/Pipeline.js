@@ -3,15 +3,9 @@ var Pipeline = {};
 Pipeline.linkWidthMin = 3.0;
 Pipeline.linkColor = "#AAA";
 Pipeline.defaultOpacity = 0.05;
- 
-Pipeline.makeHtmlSteps = function(stepdata) {
-  stepdata.forEach(function(e) {
-    var thisStep = $("<div id=" + e.id + " class=step>" + e.title + "</div>");
-    thisStep.appendTo("#modeldiv");
-    thisStep.css({top: _.random(0,250), left: _.random(0,800)});
-  });
-}
 
+
+ 
 Pipeline.docReady = function() {
 
   Snap.load("assets/pipeline-diagram.svg", onSVGLoaded ) ;
@@ -20,7 +14,7 @@ Pipeline.docReady = function() {
     var s = Snap("#svg");
     s.append( data );
     
-    var highs = Snap.selectAll("#Highlights g");
+    var highs = Snap.selectAll("#Highlights > g");
     highs.attr({
       opacity: Pipeline.defaultOpacity
     });
@@ -32,6 +26,22 @@ Pipeline.docReady = function() {
     Snap.animate(0,6, function( value ) {
 		    s.attr({ 'stroke-dasharray': '1,' + value});
     }, 5000);
+
+    $("#Buttons > rect").each(function(i, e) {
+      Snap("#" + e.id).mouseover(function (el) {
+        Pipeline.highlightHoverIn(e.id.replace(/B-/, "H-"));
+        console.log("HOVERING OVER " + e.id.replace(/B-/, "H-"));
+      });
+    });
+
+    Snap("#B-AVERAGE-DAILY-POPULATION").mouseover( function(e){
+      console.log(e);
+    });
+
+    $("#B-YEARLY-ADMISSIONS").hover(function(e) {
+      console.log(e.target);
+    }, function(e) {
+    });
 
   }
 
