@@ -14,7 +14,9 @@ var addBorderPx = function(sel, addpx) {
 Model.prototype.playCard = function(cardId) {
   this.state.cardsPlayed[cardId] = true;  // we use boolean just because it lets us use an object as a set
   this.updateScoreState();
-//      addBorderPx("#" + k, v);
+  Cards.updateState(this.state);
+  Scores.updateState(this.state);
+  Pipeline.updateState(this.state);
 }
 
 Model.prototype.updateScoreState = function() {

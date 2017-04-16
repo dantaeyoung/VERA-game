@@ -29,3 +29,8 @@ Pipeline.docReady = function() {
 
 };
 
+
+
+Pipeline.updateState = function(state) {
+}
+
