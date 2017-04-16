@@ -16,6 +16,8 @@ var Model = function(data) {
 Model.prototype.playCard = function(cardId) {
   // TODO: if we don't have enough money, don't let this thing below happen
 	console.log("PLAYED CARD: " + cardId);
+  console.log(this.data.cards.descriptions[cardId]);
+  console.log(this.data.cards.descriptions[cardId].COST);
   var cardCost = parseInt(this.data.cards.descriptions[cardId].COST.replace(/\$|,| /g, ""), 10);
   console.log('cost is here =>', cardCost)
   if (cardCost <= this.state.budget) {

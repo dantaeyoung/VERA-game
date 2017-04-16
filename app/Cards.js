@@ -19,16 +19,20 @@ Cards.cardToHighlight = function(cardId) {
 
 Cards.makeHtmlCards = function(carddata) {
   _.each(carddata.descriptions, function(v, k) {
-    console.log(v);
-    var thisCard = $("<div id=" + k + " class=card><span class='title'>" + v['REFORM TITLE'] + "</span>\
+
+    var thisCost = globalModel.data.cards.descriptions[k].COST.replace(/ /g, "");
+
+    var thisCard = $("<div id=" + k + " class=card>\
+      <span class='cost'>" + thisCost + "</span>\
+      <span class='title'>" + v['REFORM TITLE'] + "</span>\
       <span class='short_description'>" + v['SHORT DESCRIPTION'] + "</span>\
       </div>");
     thisCard.appendTo("#cards");
 
     // bind clicks
     thisCard.click(function(e) {
-      console.log("clicked " + e.target.id + "!");
-      globalModel.playCard(e.target.id);
+      console.log("clicked " + e.currentTarget.id + "!");
+      globalModel.playCard(e.currentTarget.id);
     });
     
     // bind events

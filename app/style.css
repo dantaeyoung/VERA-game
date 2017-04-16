@@ -45,22 +45,38 @@ body {
 .card {
   background-color: lightgray;
   width: 150px;
-  height: 150px;
   display: inline-block;
   padding: 10px;
   margin: 10px;
   word-wrap: break-word;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#Buttons rect {
+	cursor: pointer;
+}
+
+.card .cost {
+	font-size: 0.9em;
+  font-family: Arial;
+	font-weight: bold;
+	margin-bottom: 4px;
+	display: block;
+
 }
 
 .card .title {
   font-family: 'GT-Sectra-Medium', Arial, sans-serif;
 	display: block;
 	padding: 5px;
-	background-color: white;
+	color: white;
+	background-color: #EF4134;
+	border-radius: 5px;
+	margin-bottom: 4px;
 }
 
 .card .short_description {
   font-family: 'GT-Walsheim-Regular', Arial, sans-serif;
 	font-size: 0.8em;
-	
 }
