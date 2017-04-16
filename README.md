@@ -21,6 +21,6 @@
 - Copy the results into http://jsonlint.com/ and click `Validate Json` to make sure JSON is validated.
 - Save results by overwriting what's in `assets/card_descriptions.json` and `assets/card_impacts.json`. 
 
-
+*ALSO: don't edit `assets/pipeline-diagram.svg` willy-nilly. The object/layer names are carefully named to correspond to the data.*
 
     

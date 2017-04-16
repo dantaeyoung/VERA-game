@@ -16,8 +16,8 @@ body {
 
 #modeldiv {
   position: relative;
-  width: 800px;
-  height: 300px;
+  width: 900px;
+  height: 500px;
   border: 1px solid blue;
 }
 
@@ -37,13 +37,13 @@ body {
 }
 
 .card {
+  font-family: 'GT-Sectra-Medium', Arial, sans-serif;
   background-color: lightgray;
   width: 100px;
   height: 100px;
   display: inline-block;
   padding: 10px;
   margin: 10px;
-  font-family: 'Patua One', cursive;
   word-wrap: break-word;
 
 }
