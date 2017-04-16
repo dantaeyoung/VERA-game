@@ -1,8 +1,6 @@
 var Cards = {};
 
 Cards.docReady = function() {
-
-
 };
 
 Cards.makeHtmlCards = function(carddata) {

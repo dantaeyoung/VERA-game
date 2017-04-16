@@ -12,6 +12,7 @@ var addBorderPx = function(sel, addpx) {
 }
 
 Model.prototype.playCard = function(cardId) {
+  // TODO: if we don't have enough money, don't let this thing below happen
   this.state.cardsPlayed[cardId] = true;  // we use boolean just because it lets us use an object as a set
   this.updateScoreState();
   Cards.updateState(this.state);
