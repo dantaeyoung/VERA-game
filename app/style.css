@@ -16,7 +16,8 @@ body {
 
 #modeldiv {
 	width: 900px;
-  border: 1px solid blue;
+  border: 5px solid black;
+	border-radius: 10px;
 }
 
 .step {
