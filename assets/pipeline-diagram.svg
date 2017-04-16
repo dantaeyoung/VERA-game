@@ -42,8 +42,9 @@
 	.st34{fill:none;stroke:#EF4136;stroke-width:4;stroke-miterlimit:10;}
 	.st35{fill:none;stroke:#000000;stroke-width:13;stroke-miterlimit:10;}
 	.st36{fill:none;stroke:#000000;stroke-width:7;stroke-miterlimit:10;}
-	.st37{opacity:0.1;}
-	.st38{fill:#529F76;}
+	.st37{opacity:1.000000e-02;}
+	.st38{opacity:0.1;}
+	.st39{fill:#529F76;}
 </style>
 <g id="Graphics">
 	<g id="Layer_10" class="st0">
@@ -4084,28 +4085,28 @@ RERMeImIiIiImPASERERES1J//8AQgQTMMnuljoAAAAASUVORK5CYII=" transform="matrix(0.13
 <g id="Key">
 	<g>
 		<g>
-			<line class="st12" x1="803.7" y1="332.7" x2="805.4" y2="332.7"/>
-			<line class="st13" x1="808" y1="332.7" x2="829.6" y2="332.7"/>
-			<line class="st12" x1="830.9" y1="332.7" x2="832.5" y2="332.7"/>
+			<line class="st12" x1="793.7" y1="352.7" x2="795.4" y2="352.7"/>
+			<line class="st13" x1="798" y1="352.7" x2="819.6" y2="352.7"/>
+			<line class="st12" x1="820.9" y1="352.7" x2="822.5" y2="352.7"/>
 			<g>
-				<polygon class="st5" points="831.1,337.7 839.8,332.7 831.1,327.6 				"/>
+				<polygon class="st5" points="821.1,357.7 829.8,352.7 821.1,347.6 				"/>
 			</g>
 		</g>
 	</g>
 	<g>
 		<g>
-			<line class="st14" x1="803.7" y1="315.1" x2="830.9" y2="315.1"/>
+			<line class="st14" x1="793.7" y1="335.1" x2="820.9" y2="335.1"/>
 			<g>
-				<polygon class="st5" points="829.1,321.3 839.8,315.1 829.1,309 				"/>
+				<polygon class="st5" points="819.1,341.3 829.8,335.1 819.1,329 				"/>
 			</g>
 		</g>
 	</g>
-	<polygon class="st4" points="795.5,356.7 617.5,356.2 617.5,340.2 795.5,340.2 	"/>
-	<text transform="matrix(1 0 0 1 641.0306 351.1774)" class="st9 st15">Flow of people through the system</text>
-	<polygon class="st4" points="795.5,324.7 617.5,324.2 617.5,308.2 795.5,308.2 	"/>
-	<text transform="matrix(1 0 0 1 734.6796 319.1774)" class="st9 st15">Direct impact</text>
-	<polygon class="st4" points="795.5,340.7 617.5,340.2 617.5,324.2 795.5,324.2 	"/>
-	<text transform="matrix(1 0 0 1 727.5292 335.1774)" class="st9 st15">Indirect impact</text>
+	<polygon class="st4" points="785.5,376.7 607.5,376.2 607.5,360.2 785.5,360.2 	"/>
+	<text transform="matrix(1 0 0 1 631.0306 371.1774)" class="st9 st15">Flow of people through the system</text>
+	<polygon class="st4" points="785.5,344.7 607.5,344.2 607.5,328.2 785.5,328.2 	"/>
+	<text transform="matrix(1 0 0 1 724.6796 339.1774)" class="st9 st15">Direct impact</text>
+	<polygon class="st4" points="785.5,360.7 607.5,360.2 607.5,344.2 785.5,344.2 	"/>
+	<text transform="matrix(1 0 0 1 717.5292 355.1774)" class="st9 st15">Indirect impact</text>
 </g>
 <g id="Highlights">
 	<g id="H-ARREST">
@@ -4603,30 +4604,30 @@ RERMeImIiIiImPASERERES1J//8AQgQTMMnuljoAAAAASUVORK5CYII=" transform="matrix(0.13
 	</g>
 	<g>
 		<g>
-			<line class="st36" x1="803.2" y1="349.1" x2="830.7" y2="349.1"/>
+			<line class="st36" x1="793.2" y1="369.1" x2="820.7" y2="369.1"/>
 			<g>
-				<polygon points="828.9,355.4 839.8,349.1 828.9,342.9 				"/>
+				<polygon points="818.9,375.4 829.8,369.1 818.9,362.9 				"/>
 			</g>
 		</g>
 	</g>
 </g>
-<g id="Buttons">
-	<rect id="B-YEARLY-ADMISSIONS" x="209.3" y="-111.2" class="st37" width="83" height="83"/>
-	<rect id="B-AVERAGE-DAILY-POPULATION" x="358.3" y="-111.2" class="st37" width="83" height="83"/>
-	<rect id="B-AVERAGE-LOS" x="506.9" y="-111.2" class="st37" width="83" height="83"/>
-	<rect id="B-ARREST" x="12.8" y="120" class="st37" width="92.7" height="92.7"/>
-	<rect id="B-CHARGE" x="151.7" y="120" class="st37" width="92.7" height="92.7"/>
-	<rect id="B-COUNSEL" x="290.6" y="120" class="st37" width="92.7" height="92.7"/>
-	<rect id="B-BAIL" x="429.5" y="120" class="st37" width="92.7" height="92.7"/>
-	<rect id="B-SENTENCING" x="568.3" y="120" class="st37" width="92.7" height="92.7"/>
-	<rect id="B-POSTRELEASE" x="707.2" y="120" class="st37" width="92.7" height="92.7"/>
-	<rect id="B-PROCESSING" x="308" y="36" class="st37" width="195.9" height="35.3"/>
-	<rect id="B-COMMUNITY" x="353.6" y="250.7" class="st37" width="92.7" height="92"/>
+<g id="Buttons" class="st37">
+	<rect id="B-YEARLY-ADMISSIONS" x="209.3" y="-111.2" class="st38" width="83" height="83"/>
+	<rect id="B-AVERAGE-DAILY-POPULATION" x="358.3" y="-111.2" class="st38" width="83" height="83"/>
+	<rect id="B-AVERAGE-LOS" x="506.9" y="-111.2" class="st38" width="83" height="83"/>
+	<rect id="B-ARREST" x="12.8" y="120" class="st38" width="92.7" height="92.7"/>
+	<rect id="B-CHARGE" x="151.7" y="120" class="st38" width="92.7" height="92.7"/>
+	<rect id="B-COUNSEL" x="290.6" y="120" class="st38" width="92.7" height="92.7"/>
+	<rect id="B-BAIL" x="429.5" y="120" class="st38" width="92.7" height="92.7"/>
+	<rect id="B-SENTENCING" x="568.3" y="120" class="st38" width="92.7" height="92.7"/>
+	<rect id="B-POSTRELEASE" x="707.2" y="120" class="st38" width="92.7" height="92.7"/>
+	<rect id="B-PROCESSING" x="308" y="36" class="st38" width="195.9" height="35.3"/>
+	<rect id="B-COMMUNITY" x="353.6" y="250.7" class="st38" width="92.7" height="92"/>
 </g>
 <g id="Layer_1">
 	<rect x="211" y="-109.7" class="st5" width="80" height="80"/>
 	<rect x="360.8" y="-109.7" class="st5" width="80" height="80"/>
 	<rect x="508.7" y="-109.7" class="st5" width="80" height="80"/>
-	<rect x="656.5" y="-109" class="st38" width="80" height="80"/>
+	<rect x="656.5" y="-109" class="st39" width="80" height="80"/>
 </g>
 </svg>

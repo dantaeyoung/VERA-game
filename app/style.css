@@ -16,9 +16,82 @@ body {
 
 #modeldiv {
 	width: 900px;
+	height: 550px;
   border: 5px solid black;
 	border-radius: 10px;
+	position: relative;
 }
+
+
+#svg {
+	width: 900px;
+	height: 550px;
+}
+
+#scores {
+	position: absolute;
+	left: -48px;
+	top: -2px;
+}
+
+.score {
+  font-family: 'GT-Walsheim-Regular', Arial, sans-serif;
+	color: white;
+}
+
+
+#yearly_admissions {
+	position: absolute;
+	left: 310px;
+	top: 76px;
+	font-weight: bold;
+	font-size: 1.6em;
+	text-align: center;
+	width: 80px;
+}
+
+#average_los {
+	position: absolute;
+	left: 608px;
+	width: 80px;
+	top: 76px;
+	font-weight: bold;
+	font-size: 1.6em;
+	text-align: center;
+}
+
+#average_daily_population {
+	width: 80px;
+	position: absolute;
+	left: 460px;
+	top: 76px;
+	font-weight: bold;
+	font-size: 1.6em;
+	text-align: center;
+}
+
+
+#budget {
+	width: 80px;
+	position: absolute;
+	left: 755px;
+	top: 81px;
+	font-weight: bold;
+	font-size: 0.95em;
+	text-align: center;
+}
+
+
+
+#budget:before {
+    content: "$"
+}
+
+
+#scores .score {
+	display: inline;
+}
+
 
 .step {
   position: absolute;
@@ -35,13 +108,10 @@ body {
     height: 20px;
 }
 
-#scores {
-	width: 500px;
+#Buttons rect {
+	cursor: pointer;
 }
 
-#scores .score {
-	display: inline;
-}
 .card {
   background-color: lightgray;
   width: 150px;
@@ -53,8 +123,11 @@ body {
 	cursor: pointer;
 }
 
-#Buttons rect {
-	cursor: pointer;
+.card.cardPlayed {
+	opacity: 0.3;
+	cursor: not-allowed;
+	border: 5px solid red;
+	margin: 5px;
 }
 
 .card .cost {

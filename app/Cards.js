@@ -4,7 +4,10 @@ Cards.docReady = function() {
 };
 
 Cards.updateState = function(state) {
-  console.log(state.cardsPlayed);
+  $(".card").removeClass("cardPlayed");
+  _.each(state.cardsPlayed, function(v, k) {
+    $("#" + k).addClass("cardPlayed");
+  });
 };
 
 Cards.dataReady = function() {
