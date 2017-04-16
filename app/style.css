@@ -119,9 +119,25 @@ body {
 	
 }
 
+#cardsall {
+	position: fixed;
+	text-align: center;
+	background-color: white;
+	top: 0px;
+}
 #cards {
 	width: 1000px;
+	padding-bottom: 300px;
 }
+
+#hoverstuff {
+	z-index: 1000;
+}
+
+#cards_header {
+	margin-top: 580px;
+}
+
 .card {
   background-color: lightgray;
   width: 150px;
