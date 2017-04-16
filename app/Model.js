@@ -2,18 +2,10 @@ var Model = function(data) {
   this.data = data;
   // constructor
   this.state = {};
-	var firstKey = Object.keys(this.data.influenceMatrix)[0]
-	console.log(Object.keys(this.data.influenceMatrix[firstKey]));
-	// TODO maybe hook this into Vue.js for scores
-//      if(!(stepName in self.state.stepScores)) { self.state.stepScores[stepName] = 0; }
   this.state.cardsPlayed = {};
+  this.state.stepScores = {};
 }
 
-var addBorderPx = function(sel, addpx) {
-  var px = parseInt($(sel).css("border-width").split("px")[0]);
-  var newpx =  (px + parseInt(addpx)) + "px";
-  $(sel).css("border-width", newpx);
-}
 
 Model.prototype.playCard = function(cardId) {
   // TODO: if we don't have enough money, don't let this thing below happen
@@ -26,7 +18,8 @@ Model.prototype.playCard = function(cardId) {
 
 Model.prototype.updateScoreState = function() {
   var self = this;
-  self.state.stepScores = {};
+  self.state.stepScores = {}; // scores are totally deterministic, so recalc from the start
+
   // for all the cards we have played..
   _.each(self.state.cardsPlayed, function(ignoreMe, cardName) {
     

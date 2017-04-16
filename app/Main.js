@@ -16,10 +16,8 @@ $(function() {
       globalModel = new Model(globalData);
 
       Pipeline.dataReady();
-      Pipeline.makeHtmlSteps(globalData.steps); //TODO: remove this
       Cards.dataReady();
-			Scores.dataReady()
-
+			Scores.dataReady();
 
     });
   

@@ -2,58 +2,27 @@ var Scores = {};
 
 Scores.updateState = function(state) {
   console.log(state.stepScores);
+  _.each(state.stepScores, function(v, k) {
+    $("#" + k).html(v);
+  });
+
+
 }
 
 Scores.docReady = function() {
 
-	var apiURL = 'https://api.github.com/repos/vuejs/vue/commits?per_page=3&sha='
-
-	/**
-	 * Actual demo
-	 */
-
-	var demo = new Vue({
-
-		el: '#demo',
-
-		data: {
-			currentBranch: 'master',
-			commits: null
-		},
-
-		created: function () {
-			this.fetchData()
-		},
-
-		watch: {
-			currentBranch: 'fetchData'
-		},
-
-		filters: {
-			truncate: function (v) {
-				var newline = v.indexOf('\n')
-				return newline > 0 ? v.slice(0, newline) : v
-			},
-			formatDate: function (v) {
-				return v.replace(/T|Z/g, ' ')
-			}
-		},
-
-		methods: {
-			fetchData: function () {
-				var xhr = new XMLHttpRequest()
-				var self = this
-				xhr.open('GET', apiURL + self.currentBranch)
-				xhr.onload = function () {
-					self.commits = JSON.parse(xhr.responseText)
-					console.log(self.commits[0].html_url)
-				}
-				xhr.send()
-			}
-		}
-	})
 
 }
 
 Scores.dataReady = function() {
+  console.log(globalModel.state)
+
+	var firstKey = Object.keys(globalModel.data.influenceMatrix)[0]
+	var influenceCols = Object.keys(globalModel.data.influenceMatrix[firstKey]);
+  var scoreNames = influenceCols.filter(function(val) {
+    return val.match(/score-/);
+  });
+  scoreNames.forEach(function(name) { 
+    $("<div id=" + name + "-wrapper class=score-wrapper>Score " + name + ": <div id=" + name + " class=score>0</div></div>").appendTo("#scores");
+  });
 };
