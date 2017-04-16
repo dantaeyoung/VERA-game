@@ -7,15 +7,19 @@ $(function() {
 
   Pipeline.docReady();
   Cards.docReady();
+  Scores.docReady();
 
   $.when($.getJSON("assets/data.json"))
     .then(function(json) {
       globalData = json;
 
-      Pipeline.makeHtmlSteps(globalData.steps);
-      Cards.makeHtmlCards(globalData.cards);
-
       globalModel = new Model(globalData);
+
+      Pipeline.dataReady();
+      Pipeline.makeHtmlSteps(globalData.steps); //TODO: remove this
+      Cards.dataReady();
+			Scores.dataReady()
+
 
     });
   

@@ -2,3 +2,4 @@ node_modules
 app/min/*
 *.swp
 config.codekit
+npm-debug.log

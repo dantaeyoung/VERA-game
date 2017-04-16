@@ -2,6 +2,10 @@ var Model = function(data) {
   this.data = data;
   // constructor
   this.state = {};
+	var firstKey = Object.keys(this.data.influenceMatrix)[0]
+	console.log(Object.keys(this.data.influenceMatrix[firstKey]));
+	// TODO maybe hook this into Vue.js for scores
+//      if(!(stepName in self.state.stepScores)) { self.state.stepScores[stepName] = 0; }
   this.state.cardsPlayed = {};
 }
 

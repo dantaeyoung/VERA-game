@@ -1,10 +1,8 @@
-Pipeline = {};
+var Pipeline = {};
 
 Pipeline.linkWidthMin = 3.0;
 Pipeline.linkColor = "#AAA";
  
-
-
 Pipeline.makeHtmlSteps = function(stepdata) {
   stepdata.forEach(function(e) {
     var thisStep = $("<div id=" + e.id + " class=step>" + e.title + "</div>");
@@ -24,11 +22,17 @@ Pipeline.docReady = function() {
     Snap.animate(0,6, function( value ) {
           s.attr({ 'stroke-width': value});
     }, 1000);
+    Snap.animate(0,6, function( value ) {
+		    s.attr({ 'stroke-dasharray': '1,' + value});
+    }, 5000);
 
   }
 
 };
 
+
+Pipeline.dataReady = function() {
+}
 
 
 Pipeline.updateState = function(state) {

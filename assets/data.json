@@ -14,11 +14,11 @@
     { "id": "card-E", "title": "policy policy E" }
   ],
   "influenceMatrix": {
-    "card-A": { "step-A": "0", "step-B": "4", "step-C": 0, "step-D" : 3, "step-E": 1 },
-    "card-B": { "step-A": "4", "step-B": "0", "step-C": 0, "step-D" : 2, "step-E": 2 },
-    "card-C": { "step-A": "1", "step-B": "4", "step-C": 0, "step-D" : 1, "step-E": 3 },
-    "card-D": { "step-A": "0", "step-B": "1", "step-C": 7, "step-D" : 0, "step-E": 1 },
-    "card-E": { "step-A": "2", "step-B": "2", "step-C": 1, "step-D" : 3, "step-E": 0 }
+    "card-A": { "step-A": "0", "step-B": "4", "step-C": 0, "score-LOS" : 3, "score-NUM": 1 },
+    "card-B": { "step-A": "4", "step-B": "0", "step-C": 0, "score-LOS" : 2, "score-NUM": 2 },
+    "card-C": { "step-A": "1", "step-B": "4", "step-C": 0, "score-LOS" : 1, "score-NUM": 3 },
+    "card-D": { "step-A": "0", "step-B": "1", "step-C": 7, "score-LOS" : 0, "score-NUM": 1 },
+    "card-E": { "step-A": "2", "step-B": "2", "step-C": 1, "score-LOS" : 3, "score-NUM": 0 }
   }
 
 }

@@ -3,6 +3,14 @@ var Cards = {};
 Cards.docReady = function() {
 };
 
+Cards.updateState = function(state) {
+  console.log(state.cardsPlayed);
+};
+
+Cards.dataReady = function() {
+	Cards.makeHtmlCards(globalModel.data.cards);
+};
+
 Cards.makeHtmlCards = function(carddata) {
   carddata.forEach(function(e) {
     var thisCard = $("<div id=" + e.id + " class=card>" + e.title + "</div>");
@@ -20,7 +28,4 @@ Cards.makeHtmlCards = function(carddata) {
 
 };
 
-Cards.updateState = function(state) {
-  console.log(state.cardsPlayed);
-  
-}
+
