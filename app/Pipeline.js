@@ -79,7 +79,7 @@ Pipeline.docReady = function() {
 		$("#splashscreen").click(function(e) {
 			$("#splashscreen").fadeOut(1000);
 		})
-	}, 6000);
+	}, 1000);
 
 };
 
