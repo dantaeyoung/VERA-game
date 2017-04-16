@@ -2,13 +2,13 @@
 /* Define a custom web font */
 @font-face {
   font-family: 'GT-Sectra-Medium';
-  src: url('../assets/Fonts/GT-Sectra-Medium/GT-Sectra-Medium.woff2') format('woff2'), 
+  src: url('../assets/Fonts/GT-Sectra-Medium/GT-Sectra-Medium.eot') format('eot'), 
     url('../assets/Fonts/GT-Sectra-Medium/GT-Sectra-Medium.woff') format('woff'), 
     url('../assets/Fonts/GT-Sectra-Medium/GT-Sectra-Medium.ttf')  format('truetype');
 }
 @font-face {
   font-family: 'GT-Walsheim-Thin';
-  src: url('../assets/Fonts/GT-Walsheim-Thin/GT-Walsheim-Thin.woff2') format('woff2'), 
+  src: url('../assets/Fonts/GT-Walsheim-Thin/GT-Walsheim-Thin.eot') format('eot'), 
     url('../assets/Fonts/GT-Walsheim-Thin/GT-Walsheim-Thin.woff') format('woff'), 
     url('../assets/Fonts/GT-Walsheim-Thin/GT-Walsheim-Thin.ttf')  format('truetype');
 }
