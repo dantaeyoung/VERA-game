@@ -6,7 +6,12 @@
 
 
 ### How to change data:
-- Go to spreadsheet url 
+
+#### Simple way:
+- Edit `assets/card_descriptions.json` and `assets/card_impacts.json`.
+
+#### Comprehensive way:
+- Go to Google spreadsheet url 
 - Copy-paste each sheet into http://www.convertcsv.com/csv-to-json.htm
   - In Step 2:
     - Check `First row is column names`
