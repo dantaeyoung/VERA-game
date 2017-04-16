@@ -1,9 +1,11 @@
 # VERA-game
 
+
+
 ### START:
 - `npm start`
 - Go to http://localhost:8000
-
+- EVERYTHING is client-side.
 
 ### How to change data:
 
