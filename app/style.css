@@ -1,0 +1,46 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+.flexcontainer {
+  height:100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.centerdiv {
+}
+
+#modeldiv {
+  position: relative;
+  width: 800px;
+  height: 300px;
+  border: 1px solid blue;
+}
+
+.step {
+  position: absolute;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
+	bordeR: 2px solid green;
+	left: 20px;
+  width: 20px;
+    height: 20px;
+}
+
+.card {
+  background-color: lightgray;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+}

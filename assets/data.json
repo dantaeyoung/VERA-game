@@ -1,0 +1,24 @@
+{
+  "steps": [
+    { "id": "step-A", "title": "hey A hey A" },
+    { "id": "step-B", "title": "hey B hey B" },
+    { "id": "step-C", "title": "hey C hey C" },
+    { "id": "step-D", "title": "hey D hey D" },
+    { "id": "step-E", "title": "hey E hey E" }
+  ],
+  "cards": [
+    { "id": "card-A", "title": "Policy A" },
+    { "id": "card-B", "title": "Policy B" },
+    { "id": "card-C", "title": "Policy C" },
+    { "id": "card-D", "title": "Policy D" },
+    { "id": "card-E", "title": "policy policy E" }
+  ],
+  "influenceMatrix": {
+    "card-A": { "step-A": "0", "step-B": "4", "step-C": 0, "step-D" : 3, "step-E": 1 },
+    "card-B": { "step-A": "4", "step-B": "0", "step-C": 0, "step-D" : 2, "step-E": 2 },
+    "card-C": { "step-A": "1", "step-B": "4", "step-C": 0, "step-D" : 1, "step-E": 3 },
+    "card-D": { "step-A": "0", "step-B": "1", "step-C": 7, "step-D" : 0, "step-E": 1 },
+    "card-E": { "step-A": "2", "step-B": "2", "step-C": 1, "step-D" : 3, "step-E": 0 }
+  }
+
+}
