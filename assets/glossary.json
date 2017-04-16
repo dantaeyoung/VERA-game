@@ -1,0 +1,52 @@
+{
+   "ARREST": {
+      "Word": "Arrest",
+      "Definition": " A warrant, crime, or statute can authorize the lawful custody of an individual.",
+      "Mini Stat": "Thirty years ago, when crime rates overall were higher, there were 51 admissions into jail for ever 100 arrests. By 2012, the most recent year for which national dara are available, that number had climbed to 95 admissions per 100 arrests."
+   },
+   "CHARGE": {
+      "Word": "Charge",
+      "Definition": "An accusation of crime, formulated in a written complaint, information, or indictment, and taking shape in prosecution. ",
+      "Mini Stat": "An average of 62% of the incustody population that is pretrial. "
+   },
+   "Risk Assessment": {
+      "Word": "Risk Assessment",
+      "Definition": "Risk assessment instruments measure the likelihood that a person will reoffend if or when released into the community.",
+      "Mini Stat": "An individual in pretrial detention is 400% more likely to receive a prison sentence, and 3 x longer prison sentence"
+   },
+   "Arraignment": {
+      "Word": "Arraignment",
+      "Definition": "An early state in the criminal justice process, occuring after an arrest. The defendant is brought before a judge and informed of the charges pending against him or her. If applicable, bail is set. ",
+      "Mini Stat": "Of the 38% of felony defendants who spend the entirety of their pretrial period in jail, 9 out of 10 have a bail set that they can't afford to make."
+   },
+   "BAIL": {
+      "Word": "Bail Review",
+      "Definition": "After bail is set, a bail review by a judge or commissioner can offer a second look at potential conditions that would make the prosecutor and judge comfortable releasing the defendant into the community pretrial.",
+      "Mini Stat": "54% in NYC (2013) could not afford bail of $2,500 or less, most misdemeanor cases (31% of the non-felony defendants in this example were held on bond amounts of $500 or less)."
+   },
+   "Trial or Plea Negotiation": {
+      "Word": "Trial or Plea Negotiation",
+      "Definition": "Trial is the phase of a case where each side presents arguments, questions witnesses, or calls experts to prove innocence or guilt of the defendant. A plea negotiation is the agreements made between the prosecutor and defense counsel that can avoid trial. Negotiated pleas generally reduce the severity of the sentence the defendant faces in the interest of saving case processing time and justice system resources.",
+      "Mini Stat": "75% of individuals are in custody (pretrial or sentenced) for nonviolent traffic, property, drug, or public order offenses."
+   },
+   "SENTENCING": {
+      "Word": "Disposition & Sentencing ",
+      "Definition": "Once a case has concluded, it is said to be disposed. Possible dispositions include: conviction by trial or plea, dismissal, and acquittal. Sentencing is the formal legal consequences associated with a conviction. ",
+      "Mini Stat": "There are 12 million admissions to jail each year."
+   },
+   "COMMUNITY": {
+      "Word": "Community ",
+      "Definition": "When there is a lack of community resources to address community struggles like addiction, poverty, and trauma, jail is the systems default response",
+      "Mini Stat": "The average annual earnings of a person at age 45 if not incarcerated is $39,100, while post-incarceration is $23,500."
+   },
+   "POSTRELEASE": {
+      "Word": "Release & Supervision",
+      "Definition": "",
+      "Mini Stat": ""
+   },
+   "COUNSEL": {
+      "Word": "Counsel",
+      "Definition": "",
+      "Mini Stat": ""
+   }
+}

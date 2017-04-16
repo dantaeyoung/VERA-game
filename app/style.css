@@ -112,6 +112,13 @@ body {
 	cursor: pointer;
 }
 
+.title_header {
+	margin: 10px 5px;
+  font-family: 'GT-Sectra-Medium', Arial, sans-serif;
+	font-size: 2em;
+	
+}
+
 .card {
   background-color: lightgray;
   width: 150px;
@@ -153,3 +160,54 @@ body {
   font-family: 'GT-Walsheim-Regular', Arial, sans-serif;
 	font-size: 0.8em;
 }
+
+.card_long_description {
+  font-family: 'GT-Walsheim-Regular', Arial, sans-serif;
+	font-size: 0.9em;
+	position: absolute;
+	top: 0px;
+	width: 400px;
+	padding: 20px;
+	border: 5px solid #EF4134;
+	border-radius: 10px;
+	background-color: white;
+	display: none;
+	opacity: 0.9;
+}
+
+.card_long_description.hovering { 
+	display: block;
+}
+
+.glossary {
+  font-family: 'GT-Walsheim-Regular', Arial, sans-serif;
+	font-size: 0.9em;
+	position: absolute;
+	top: 0px;
+	width: 250px;
+	padding: 20px;
+	border: 5px solid #EF4134;
+	border-radius: 10px;
+	background-color: white;
+	display: none;
+	opacity: 0.9;
+}
+
+.glossary .term {
+	color: #EF4134;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.glossary .def {
+	margin: 9px 0px
+}
+
+.glossary .stat {
+	font-size: 0.9em;
+}
+
+.glossary.hovering { 
+	display: block;
+}
+

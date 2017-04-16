@@ -10,21 +10,23 @@ $(function() {
   Scores.docReady();
 
   $.when(
-		$.getJSON("assets/data.json"),
 		$.getJSON("assets/card_impacts.json"),
-		$.getJSON("assets/card_descriptions.json")
+		$.getJSON("assets/card_descriptions.json"),
+		$.getJSON("assets/glossary.json")
 	)
-    .done(function(data, impacts, descriptions) {
+    .done(function(impacts, descriptions, glossary) {
       globalData = {};
       globalData.cards = {};
 			globalData.cards.impacts = impacts[0];
 			globalData.cards.descriptions = descriptions[0];
+			globalData.glossary = glossary[0];
 
       globalModel = new Model(globalData);
 
       Pipeline.dataReady();
       Cards.dataReady();
 			Scores.dataReady();
+			Glossary.dataReady();
 
     });
   

@@ -49,11 +49,15 @@ Pipeline.docReady = function() {
       Snap("#" + e.id).mouseover(function (el) {
         Pipeline.highlightHoverIn(e.id.replace(/B-/, "H-"));
         console.log("HOVERING OVER " + e.id.replace(/B-/, "H-"));
+        var glossaryid =  e.id.replace(/B-/, "G-");
+				$("#" + glossaryid).addClass("hovering");
       });
 
       Snap("#" + e.id).mouseout(function (el) {
         Pipeline.highlightHoverOut(e.id.replace(/B-/, "H-"));
         console.log("HOVERING OUT " + e.id.replace(/B-/, "H-"));
+        var glossaryid =  e.id.replace(/B-/, "G-");
+				$("#" + glossaryid).removeClass("hovering");
       });
 
     });

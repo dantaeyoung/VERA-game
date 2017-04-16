@@ -32,6 +32,14 @@ Cards.makeHtmlCards = function(carddata) {
       </div>");
     thisCard.appendTo("#cards");
 
+
+		var thisLongD = $("<div id='" + k + "_LD' class='card_long_description'>\
+      <span class='words'>" + v['LONG DESCRIPTION'] + "</span>\
+      </div>");
+    thisLongD.appendTo("#card_long_descriptions");
+
+
+
     // bind clicks
     thisCard.click(function(e) {
       console.log("clicked " + e.currentTarget.id + "!");
@@ -41,12 +49,19 @@ Cards.makeHtmlCards = function(carddata) {
     // bind events
 
     thisCard.hover(function(e) {
-      console.log("Highlight In " + Cards.cardToHighlight(e.target.id));
-      Pipeline.highlightHoverIn(Cards.cardToHighlight(e.target.id));
+      console.log("Highlight In " + Cards.cardToHighlight(e.currentTarget.id));
+      Pipeline.highlightHoverIn(Cards.cardToHighlight(e.currentTarget.id));
+			$("#" + e.currentTarget.id + "_LD").addClass("hovering");
     }, function(e) {
-      console.log("Highlight Out " + Cards.cardToHighlight(e.target.id));
-      Pipeline.highlightHoverOut(Cards.cardToHighlight(e.target.id));
+      console.log("Highlight Out " + Cards.cardToHighlight(e.currentTarget.id));
+      Pipeline.highlightHoverOut(Cards.cardToHighlight(e.currentTarget.id));
+			$("#" + e.currentTarget.id + "_LD").removeClass("hovering");
     });
+
+    $(document).mousemove(function(e){
+			$('.hovering').css({'top': e.pageY+ 20, 'left': e.pageX + 10});
+    });
+
 
   });
 
