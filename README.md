@@ -19,7 +19,7 @@
   - In Step 5:
     - Click `CSV to Keyed JSON`
 - Copy the results into http://jsonlint.com/ and click `Validate Json` to make sure JSON is validated.
-- Store each sheet in `assets/card_descriptions.json` and `assets/card_impacts.json`.
+- Save results by overwriting what's in `assets/card_descriptions.json` and `assets/card_impacts.json`. 
 
 
 
