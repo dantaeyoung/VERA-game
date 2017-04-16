@@ -8,7 +8,7 @@ Helpers.nameToId = function(name) {
   return Helpers.trim(name).toLowerCase().replace(/ /g, "_");
 };
 
-Helpers.calcScore = function(array) {
+Helpers.calcScore = function(array, name) {
   var score = 0;
   var highestIdx = null;
   for (var i = 0; i < array.length; i++) {
@@ -29,5 +29,9 @@ Helpers.calcScore = function(array) {
       score += (+array[j].slice(0, -1)) / 2;
     }
   }
+  var initial = globalModel.state.initialScores[name];
+
+  score = initial - (initial * (score/100));
+
   return score;
 };
