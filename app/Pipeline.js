@@ -5,7 +5,7 @@ Pipeline.linkColor = "#AAA";
 Pipeline.defaultOpacity = 0.05;
 
 Pipeline.loopFlow = function() {
-    var lines = Snap.selectAll("line")
+    var lines = Snap.selectAll("#PeopleFlow line")
 		lines.attr({ 'stroke-dasharray': '6,6'});
     Snap.animate(60, 0, function( value ) {
 		    lines.attr({ 'stroke-dashoffset': value});
