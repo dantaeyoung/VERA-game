@@ -1,182 +1,164 @@
 {
-    "CARD-01": {
-        "REFORM TITLE": "Increase use of summons/citations",
-        "SHORT DESCRIPTION": " Use citations instead of arresting people ",
-        "LONG DESCRIPTION": " Using citations gives officers discretion to safely release people in the field and avoid booking them into jail, successfully lowering jail populations and saving local jurisdictions money. Citations help people avoid jail time as they await trial and allows them to maintain employment and remain in their communities with friends and family. For example, when New Orleans changed its policy to encourage citations instead of arrests, the law enforcement saw the use of citations increase by 41%. ",
-        "COST": " $ 50,000.00 ",
-        "TOTAL MAX REDUCTION": "15%",
-        "FACT (kr)": "The use of citations can contribute to lower jail populations and local cost savings by diverting from detention arrestees who pose little risk to public safety and are likely to appear for their court date. Citations issued before arrest also can have the effect of an arrest not being placed on a person’s criminal record.  Some legislatures have stated the intent of citations in statutory law. (or) After New Orleans, Louisiana, Municipal Code was changed to encourage the use of citation in lieu of arrest, analysis of New Orleans Police Department data by the Vera Institute of Justice (2011) showed that citations (summons) were issued in 68.2% of municipal cases not including domestic violence or public intoxication, up from 41% in 2009.12 ",
-        "SOURCE": "http://www.ncsl.org/research/civil-and-criminal-justice/citation-in-lieu-of-arrest.aspx; http://www.theiacp.org/Portals/0/documents/pdfs/Citation%20in%20Lieu%20of%20Arrest%20Literature%20Review.pdf",
-        "MESSAGING (km)": ""
-    },
-    "CARD-02": {
-        "REFORM TITLE": "Implement LE Diversion",
-        "SHORT DESCRIPTION": " Divert people from the justice system to social services instead ",
-        "LONG DESCRIPTION": " Law enforcement diversion allows officers to divert or deflect people out of the system towards social services at the officer’s discretion, avoiding or minimizing negative impacts of the justice system. In one study, law enforcement diversion – whether pre-arrest or post-arrest – decreased likelihood of re-arrest by more than half (58%) of participants when compared to non-program participants. ",
-        "COST": " $ 200,000.00 ",
-        "TOTAL MAX REDUCTION": "5%",
-        "FACT (kr)": "participants were 58% less likely to be arrested after enrollment in the program, compared to a control group that went through “system as usual” criminal justice processing",
-        "SOURCE": "https://media.wix.com/ugd/6f124f_535679d78c2541fdaf433d3983cb2a31.pdf",
-        "MESSAGING (km)": ""
-    },
-    "CARD-03": {
-        "REFORM TITLE": "Deferred Prosecution",
-        "SHORT DESCRIPTION": " Give prosecutors the opportunity to amend charges if defendants comply with negotiated terms. ",
-        "LONG DESCRIPTION": " Deferred prosecution agreements (DPAs)provides prosecutors the opportunity to amend charges should defendants comply with negotiated terms – often including restitution payments, behavioral therapy, substance use or mental health treatment, and/or drug testing. If a defendant successfully completes a DPA program, charges can be reduced or dismissed entirely. ",
-        "COST": " $ 50,000.00 ",
-        "TOTAL MAX REDUCTION": "5%",
-        "FACT (kr)": "A defendant always has counsel present when deciding whether to enter into a diversion or deferred prosecution agreement. A diversion agreement may include restitution payment and refraining from committing another crime for the diversion term. Those who successfully meet the conditions of their agreement will not be subject to a criminal charge, while those who fail will be prosecuted. Participants in the DPA program enter a guilty plea and sign an agreement, and the judgment of conviction is deferred. Conditions can include cognitive behavioral therapy, substance use or mental health treatment, restitution payment, and drug testing, and must be directly connected to the defendant’s actuarial needs and case management. Those who are not successful in the program will be sentenced on the charges as pled. When a defendant successfully completes the DPA program, the charges are either dismissed or reduced, depending on the signed agreement. A diversion agreement generally lasts six months, while a DPA lasts for at least six months. ",
-        "SOURCE": "overlooked",
-        "MESSAGING (km)": ""
-    },
-    "CARD-04": {
-        "REFORM TITLE": "Expedited Plea Program",
-        "SHORT DESCRIPTION": " Expedite cases to process quickly and reduce number of days detained in jail ",
-        "LONG DESCRIPTION": " Expedited plea programs allow cases to be processed more quickly, resulting in individuals spending fewer days detained in jail and reducing the strain for already–overburdened court systems. For example, Philadelphia’s Early Resolution’ Program, a judge accepts both misdemeanor and felony offers – negotiated by prosecution and defense counsel – for those in custody with felony cases and disposes the case prior to a preliminary hearing. ",
-        "COST": " $ 35,000.00 ",
-        "TOTAL MAX REDUCTION": "5%",
-        "FACT (kr)": "One example: The city of Philadelphia is implementing a policy of 'early resolution,' one of the strategies resulting from The MacArthur Foundation's investment in jail diversion as part of its Safety and Justice Challenge. In 'early resolution' cases, a judge accepts both misdemeanor and felony offers for those in custody with felony cases, disposing disposing of the case prior to preliminary hearing. ",
-        "SOURCE": "https://beta.phila.gov/media/20160412130650/Philadelphia-Proposal-for-Announcement.pdfhttps://beta.phila.gov/media/20160412130650/Philadelphia-Proposal-for-Announcement.pdf\n\nhttp://www.philly.com/philly/news/Has-a-bold-plan-helped-to-shrink-Phillys-prison-population-.html?amphtml=y",
-        "MESSAGING (km)": ""
-    },
-    "CARD-05": {
-        "REFORM TITLE": "Counsel at 1st Appearance",
-        "SHORT DESCRIPTION": " Provide legal counsel at first appearance to those unable to afford representation ",
-        "LONG DESCRIPTION": " \nMany people aren’t able to afford lawyers to represent them, which can negatively impact their case outcomes. A recent study found that unrepresented defendants who returned with counsel at bail review hearings were two-and-a-half times more likely to be released, and had their bail amounts significantly reduced four times as often as those without counsel.\n ",
-        "COST": " $ 75,000.00 ",
-        "TOTAL MAX REDUCTION": "10%",
-        "FACT (kr)": "e. One study found that unrepresented defendants\nin Baltimore who subsequently appeared with counsel at a\nbail review hearing were released on their own recognizance\ntwo and a half times more often than unrepresented\ndefendants (34 percent compared to 13 percent) and had\ntheir bail amounts significantly reduced more than four times\nas often (59 percent compared to 14 percent).",
-        "SOURCE": "overlooked",
-        "MESSAGING (km)": ""
-    },
-    "CARD-06": {
-        "REFORM TITLE": "Social Worker",
-        "SHORT DESCRIPTION": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        "LONG DESCRIPTION": "",
-        "COST": " $ 75,000.00 ",
-        "TOTAL MAX REDUCTION": "5%",
-        "FACT (kr)": "",
-        "SOURCE": "http://www.bronxdefenders.org/our-work/soc-work/",
-        "MESSAGING (km)": ""
-    },
-    "CARD-07": {
-        "REFORM TITLE": "Pretrial Supervision",
-        "SHORT DESCRIPTION": " Monitor defendants using pretrial supervision instead of detaining them in jail ",
-        "LONG DESCRIPTION": " Pretrial supervision, or monitoring and assisting defendants before the resolution of their case, makes it possible for judges to release higher-risk people who would otherwise be detained. Pretrial service officers help ensure people will appear for their court dates and avoid re-arrest by checking in with reminders and referrals to services in the community. Washington, D.C. is using pretrial supervision instead of cash bail and releases roughly 85% of its defendants – with just 11% rearrested while released.  ",
-        "COST": " $ 150,000.00 ",
-        "TOTAL MAX REDUCTION": "15%",
-        "FACT (kr)": "Developing the capacity to monitor and assist defendants\nduring the pretrial period makes it possible for judges and other\ncourt officers who make release and detention decisions to release higher-risk\npeople who would otherwise be detained pending trial. The work\nwith defendants typically involves establishing specific parameters for their\nbehavior during the pretrial period and linking them with service providers\nin the community to help them address longstanding problems and\nremind them about upcoming court dates.g Washington, DC’s Pretrial Services\nAgency (DCPTS) has a very robust release and supervision program:\n85 percent of defendants are released on ROR or with conditions supervised\nby DCPTS—and of that 85 percent, in 2012, just 11 percent were\nrearrested while released, and 11 percent failed to appear.h",
-        "SOURCE": "https://storage.googleapis.com/vera-web-assets/downloads/Publications/incarcerations-front-door-the-misuse-of-jails-in-america/legacy_downloads/incarcerations-front-door-report_02.pdf",
-        "MESSAGING (km)": ""
-    },
-    "CARD-08": {
-        "REFORM TITLE": "Pretrial Risk Assessment Instrument (no cash bail)",
-        "SHORT DESCRIPTION": " Use pretrial risk assessment to measure likelihood a person will fail to appear at court if released back into community ",
-        "LONG DESCRIPTION": " Pretrial risk assessment is used to measure the likelihood a person will reoffend or fail to appear for court if they are released into the community before their case is resolved, with some jurisdictions turning to risk assessments in lieu of cash bail. Risk tools should ALWAYS be validated, or proven effective, and not create greater disparities based on things like race, ethnicity, or gender. One example state, Kentucky, has a single statewide agency for all local jurisdictions that assesses defendants using risk assessment instruments. Kentucky releases about 70% of all defendants pretrial, with only 4% requiring bail. ",
-        "COST": " $ 250,000.00 ",
-        "TOTAL MAX REDUCTION": "20%",
-        "FACT (kr)": "(1)  For example, in New York City in 2013, 54 percent of\njail inmates held until their cases had been disposed remained in jail because\nthey could not afford bail of $2,500 or less—with 31 percent of the non-felony\ndefendants held on bond amounts of $500 or less. (2)   There are a variety of assessment tools available for different\npurposes. Risk assessment instruments\nmeasure the likelihood that a person will reoffend if or when released\ninto the community... Judges and releasing authorities use information from\nassessment tools to guide decisions regarding pretrial release or detention ...assignment to supervision level or to specialized\ncaseloads, and for recommendations regarding conditions of release. . Kentucky has a single\nstatewide agency that assesses all defendants\nusing a locally validated risk\nassessment instrument. In recent years,\nthe court has released 70 percent of all defendants pretrial, with only four percent\nrequiring bail.a\n ",
-        "SOURCE": "front door",
-        "MESSAGING (km)": ""
-    },
-    "CARD-09": {
-        "REFORM TITLE": "Court Date Reminders",
-        "SHORT DESCRIPTION": " Send court date reminders to prevent people forgetting and failing to appear  ",
-        "LONG DESCRIPTION": " Many people fail to appear for court because they are confused or forget the date(s) of their hearing(s). One county in Arizona found that 23% of its jail population was made up of people detained after missing court appearances. After testing court reminder systems in which a caller spoke to the defendant, the county reduced its failure-to-appear rate from 25% to 6%. ",
-        "COST": " $ 50,000.00 ",
-        "TOTAL MAX REDUCTION": "5%",
-        "FACT (kr)": "n 2006, Cocinino County, Arizona found that about 23 percent of the jail\npopulation were defendants who were detained after failing to appear at\nscheduled court dates. The county tested several court reminder systems for\ndefendants who received citations in the field. The failure to appear rate was\nreduced from 25 percent in the control group to six percent in the reminder group when the caller spoke directly to the defendant, 15 percent when a\nmessage was left with another person, and 21 percent when a message was\nleft on an answering service",
-        "SOURCE": "front door",
-        "MESSAGING (km)": ""
-    },
-    "CARD-10": {
-        "REFORM TITLE": "Backlog Reduction",
-        "SHORT DESCRIPTION": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        "LONG DESCRIPTION": "",
-        "COST": " $ 35,000.00 ",
-        "TOTAL MAX REDUCTION": "5%",
-        "FACT (kr)": "",
-        "SOURCE": "http://www.csmonitor.com/1981/1127/112745.html",
-        "MESSAGING (km)": ""
-    },
-    "CARD-11": {
-        "REFORM TITLE": "Continuance Policy/Reviews",
-        "SHORT DESCRIPTION": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        "LONG DESCRIPTION": "",
-        "COST": " $ 35,000.00 ",
-        "TOTAL MAX REDUCTION": "3%",
-        "FACT (kr)": "",
-        "SOURCE": "http://cdm16501.contentdm.oclc.org/cdm/ref/collection/ctadmin/id/1484",
-        "MESSAGING (km)": ""
-    },
-    "CARD-12": {
-        "REFORM TITLE": "Alternative to Incarceration--Job Readiness",
-        "SHORT DESCRIPTION": " Invest in job readiness programs to prepare defendants for successful employment – this helps prevent recidivism ",
-        "LONG DESCRIPTION": " Job readiness programs prepare defendants for successful employment to help prevent recidivism and provide economic stability. In New York, for example, of those who completed the Court Employment Project job readiness program, nearly 90% avoided any new conviction within two years. Recent studies estimate these types of programs can save taxpayers $8 for every $1 invested in them. ",
-        "COST": " $ 150,000.00 ",
-        "TOTAL MAX REDUCTION": "5%",
-        "FACT (kr)": "Despite these high risk levels, 55-60% of CEP youth successfully complete the program every year, thereby fulfilling their court obligations and avoiding incarceration. Among those who complete the program, nearly 90% have avoided any new conviction within two years of completing CEP. Recent studies estimate programs like CEP that reduce recidivism and divert youth from incarceration can save taxpayers $8 in correctional costs for every $1 invested.5",
-        "SOURCE": "https://www.cases.org/programs/court-employment-project/",
-        "MESSAGING (km)": ""
-    },
-    "CARD-13": {
-        "REFORM TITLE": "Alternative to Incarceration--Treatment",
-        "SHORT DESCRIPTION": " Refer people in need to mental health and substance use treatment instead of sentencing jail time ",
-        "LONG DESCRIPTION": " Many people who become involved with the criminal justice system are in dire need of mental health or substance-use treatment. One Seattle program that links people with mental illnesses or substance-use disorders to supportive housing instead of jail has resulted in a 45% reduction of jail bookings, a 42% reduction in jail days, and is estimated to have saved taxpayers more than $4 million in one year alone. ",
-        "COST": " $ 150,000.00 ",
-        "TOTAL MAX REDUCTION": "5%",
-        "FACT (kr)": "An evaluation of a program in Seattle that linked people with chronic\nco-occurring mental health and substance-use disorders to supportive\nhousing showed improved outcomes in health and housing: a 45 percent\nreduction in jail bookings and a 42 percent reduction in jail days, generating\nmore than $4 million in cost-savings to public services after one year.30",
-        "SOURCE": "http://archive.vera.org/sites/default/files/resources/downloads/treatment-alternatives-to-incarceration.pdf",
-        "MESSAGING (km)": ""
-    },
-    "CARD-14": {
-        "REFORM TITLE": "Risk-Based Probation Supervision",
-        "SHORT DESCRIPTION": " Use a risk-factor rating system to monitor those at risk without devoting staff time or resources on people who are not a danger and may be negatively affected by overmonitoring ",
-        "LONG DESCRIPTION": " Risk-based probation supervision is a good way to ensure that high-risk individuals are monitored effectively without wasting staff resources on low-risk people, whose risks increase from excessive conditions of supervision. By redirecting existing resources, agencies\ncan provide more intensive supervision, treatment, and services to those at greater risk of new offenses and re-arrest.\n ",
-        "COST": " $ 200,000.00 ",
-        "TOTAL MAX REDUCTION": "10%",
-        "FACT (kr)": "Too many supervision agencies waste valuable resources—staff time and purchased\nservices—on low-risk offenders who actually may be harmed by excessive\nsupervision and programming. By redirecting existing resources agencies\ncan provide more intensive supervision, treatment, and services to medium\nand high-risk parolees and probationers.\nHowever, redirected resources alone are not always sufficient to substantially\nimprove public safety. Securing this requires more officers, lower caseloads,\nbetter training, and funds to purchase services and treatment for medium and\nhigh-risk offenders. Therefore, states and counties may need to invest additional\nresources upfront to make communities safer. ",
-        "SOURCE": "http://archive.vera.org/sites/default/files/resources/downloads/potential-of-community-corrections.pdf",
-        "MESSAGING (km)": ""
-    },
-    "CARD-15": {
-        "REFORM TITLE": "Graduated Response Sanctions",
-        "SHORT DESCRIPTION": " Use graduated sanctions that vary based on the degree of the violation – instead of a one-size-fits-all approach. ",
-        "LONG DESCRIPTION": " Probation officers often express the fear that, if they do not send people to jail for lower-level supervision violations, a supervisee may commit a more serious offense in the future. Graduated sanctions give them options that are proportionate to the violation—such as enhanced supervision terms or brief jail stays—and don’t rely on overly punitive responses. ",
-        "COST": " $ 50,000.00 ",
-        "TOTAL MAX REDUCTION": "10%",
-        "FACT (kr)": "Revocation to jail or prison is a severe, expensive, and mostly ineffective sanction\nfor some supervision violations. Yet officers often express the fear that, if\nthey do not revoke for lower-level violations, a supervisee may commit a more\nserious offense later on for which the officer and his or her agency will be\nheld liable. Many jurisdictions have addressed this concern by formally adopting\npolicies that support a system of graduated responses for rules violations\nand offer individual officers legal protection. These policies are grounded in\na growing body of research showing the importance of responding to every\ninfraction; the key is to respond appropriately and proportionately. From a\nmissed appointment to a failed drug test, there are many behaviors that can be\nsafely met with prompt, defined sanctions that are proportional to the violation\nand address the reasons the violation occurred.59 Providing a continuum\nof responses that includes both programming interventions and sanctions\n(such as an official reprimand from a senior supervising officer, more frequent\nreporting, a new curfew, or time-limited travel restrictions) gives officers the\ntools to respond to every violation while allowing them to continue interacting\nand working with their supervisees through difficult periods. ",
-        "SOURCE": "http://archive.vera.org/sites/default/files/resources/downloads/potential-of-community-corrections.pdf",
-        "MESSAGING (km)": ""
-    },
-    "CARD-16": {
-        "REFORM TITLE": "Warrant Resolution Event",
-        "SHORT DESCRIPTION": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        "LONG DESCRIPTION": "",
-        "COST": " $ 25,000.00 ",
-        "TOTAL MAX REDUCTION": "5%",
-        "FACT (kr)": "",
-        "SOURCE": "https://webcms.pima.gov/UserFiles/Servers/Server_6/File/Government/Administration/CHHmemosFor%20Web/December%201/Evening%20and%20Weekend%20Justice%20Court%20Benefits.pdf",
-        "MESSAGING (km)": ""
-    },
-    "CARD-17": {
-        "REFORM TITLE": "Peer Navigators",
-        "SHORT DESCRIPTION": " Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
-        "LONG DESCRIPTION": "",
-        "COST": " $ 35,000.00 ",
-        "TOTAL MAX REDUCTION": "5%",
-        "FACT (kr)": "slide 13",
-        "SOURCE": "https://www.samhsa.gov/sites/default/files/programs_campaigns/recovery_to_practice/rtp-cj2-012417.pdf",
-        "MESSAGING (km)": ""
-    },
-    "CARD-18": {
-        "REFORM TITLE": "Justice Impacted Advisory Board",
-        "SHORT DESCRIPTION": " Create a community advisory board comprising of former justice system-involved citizens to help guide reform efforts  ",
-        "LONG DESCRIPTION": " Community advisory boards provide community members with a forum to air concerns, learn about the justice system, and steer new initiatives. They bring in voices and perspectives that are sometimes overlooked—especially from those that have experienced the system first hand. ",
-        "COST": " $ 50,000.00 ",
-        "TOTAL MAX REDUCTION": "3%",
-        "FACT (kr)": "Community advisory boards provide community members with a forum to air concerns, learn about the justice system, and steer new initiatives. They bring in voices and perspectives that are sometimes overlooked. And they send a strong symbolic message about accountability",
-        "SOURCE": "http://www.courtinnovation.org/sites/default/files/documents/CommunityAdvisoryBoards.pdf",
-        "MESSAGING (km)": ""
-    }
+   "CARD-01": {
+      "REFORM TITLE": "Increase use of summons/citations",
+      "SHORT DESCRIPTION": " Use citations instead of arresting people ",
+      "LONG DESCRIPTION": " Using citations gives officers discretion to safely release people in the field and avoid booking them into jail, successfully lowering jail populations and saving local jurisdictions money. Citations help people avoid jail time as they await trial and allows them to maintain employment and remain in their communities with friends and family. For example, when New Orleans changed its policy to encourage citations instead of arrests, the law enforcement saw the use of citations increase by 41%. ",
+      "COST": " $ 50,000.00 ",
+      "TOTAL MAX REDUCTION": "15%",
+      "FACT (kr)": "The use of citations can contribute to lower jail populations and local cost savings by diverting from detention arrestees who pose little risk to public safety and are likely to appear for their court date. Citations issued before arrest also can have the effect of an arrest not being placed on a person’s criminal record.  Some legislatures have stated the intent of citations in statutory law. (or) After New Orleans, Louisiana, Municipal Code was changed to encourage the use of citation in lieu of arrest, analysis of New Orleans Police Department data by the Vera Institute of Justice (2011) showed that citations (summons) were issued in 68.2% of municipal cases not including domestic violence or public intoxication, up from 41% in 2009.12 ",
+      "SOURCE": "http://www.ncsl.org/research/civil-and-criminal-justice/citation-in-lieu-of-arrest.aspx; http://www.theiacp.org/Portals/0/documents/pdfs/Citation%20in%20Lieu%20of%20Arrest%20Literature%20Review.pdf"
+   },
+   "CARD-02": {
+      "REFORM TITLE": "Implement LE Diversion",
+      "SHORT DESCRIPTION": " Divert people from the justice system to social services instead ",
+      "LONG DESCRIPTION": " Law enforcement diversion allows officers to divert or deflect people out of the system towards social services at the officer’s discretion, avoiding or minimizing negative impacts of the justice system. In one study, law enforcement diversion – whether pre-arrest or post-arrest – decreased likelihood of re-arrest by more than half (58%) of participants when compared to non-program participants. ",
+      "COST": " $ 200,000.00 ",
+      "TOTAL MAX REDUCTION": "5%",
+      "FACT (kr)": "participants were 58% less likely to be arrested after enrollment in the program, compared to a control group that went through “system as usual” criminal justice processing",
+      "SOURCE": "https://media.wix.com/ugd/6f124f_535679d78c2541fdaf433d3983cb2a31.pdf"
+   },
+   "CARD-03": {
+      "REFORM TITLE": "Deferred Prosecution",
+      "SHORT DESCRIPTION": " Give prosecutors the opportunity to amend charges if defendants comply with negotiated terms. ",
+      "LONG DESCRIPTION": " Deferred prosecution agreements (DPAs)provides prosecutors the opportunity to amend charges should defendants comply with negotiated terms – often including restitution payments, behavioral therapy, substance use or mental health treatment, and/or drug testing. If a defendant successfully completes a DPA program, charges can be reduced or dismissed entirely. ",
+      "COST": " $ 50,000.00 ",
+      "TOTAL MAX REDUCTION": "5%",
+      "FACT (kr)": "A defendant always has counsel present when deciding whether to enter into a diversion or deferred prosecution agreement. A diversion agreement may include restitution payment and refraining from committing another crime for the diversion term. Those who successfully meet the conditions of their agreement will not be subject to a criminal charge, while those who fail will be prosecuted. Participants in the DPA program enter a guilty plea and sign an agreement, and the judgment of conviction is deferred. Conditions can include cognitive behavioral therapy, substance use or mental health treatment, restitution payment, and drug testing, and must be directly connected to the defendant’s actuarial needs and case management. Those who are not successful in the program will be sentenced on the charges as pled. When a defendant successfully completes the DPA program, the charges are either dismissed or reduced, depending on the signed agreement. A diversion agreement generally lasts six months, while a DPA lasts for at least six months. ",
+      "SOURCE": "overlooked"
+   },
+   "CARD-04": {
+      "REFORM TITLE": "Expedited Plea Program",
+      "SHORT DESCRIPTION": " Expedite cases to process quickly and reduce number of days detained in jail ",
+      "LONG DESCRIPTION": " Expedited plea programs allow cases to be processed more quickly, resulting in individuals spending fewer days detained in jail and reducing the strain for already–overburdened court systems. For example, Philadelphia’s Early Resolution’ Program, a judge accepts both misdemeanor and felony offers – negotiated by prosecution and defense counsel – for those in custody with felony cases and disposes the case prior to a preliminary hearing. ",
+      "COST": " $ 35,000.00 ",
+      "TOTAL MAX REDUCTION": "5%",
+      "FACT (kr)": "One example: The city of Philadelphia is implementing a policy of 'early resolution,' one of the strategies resulting from The MacArthur Foundation's investment in jail diversion as part of its Safety and Justice Challenge. In 'early resolution' cases, a judge accepts both misdemeanor and felony offers for those in custody with felony cases, disposing disposing of the case prior to preliminary hearing. ",
+      "SOURCE": "https://beta.phila.gov/media/20160412130650/Philadelphia-Proposal-for-Announcement.pdfhttps://beta.phila.gov/media/20160412130650/Philadelphia-Proposal-for-Announcement.pdf\n\nhttp://www.philly.com/philly/news/Has-a-bold-plan-helped-to-shrink-Phillys-prison-population-.html?amphtml=y"
+   },
+   "CARD-05": {
+      "REFORM TITLE": "Counsel at 1st Appearance",
+      "SHORT DESCRIPTION": " Provide legal counsel at first appearance to those unable to afford representation ",
+      "LONG DESCRIPTION": " \nMany people aren’t able to afford lawyers to represent them, which can negatively impact their case outcomes. A recent study found that unrepresented defendants who returned with counsel at bail review hearings were two-and-a-half times more likely to be released, and had their bail amounts significantly reduced four times as often as those without counsel.\n ",
+      "COST": " $ 75,000.00 ",
+      "TOTAL MAX REDUCTION": "10%",
+      "FACT (kr)": "e. One study found that unrepresented defendants\nin Baltimore who subsequently appeared with counsel at a\nbail review hearing were released on their own recognizance\ntwo and a half times more often than unrepresented\ndefendants (34 percent compared to 13 percent) and had\ntheir bail amounts significantly reduced more than four times\nas often (59 percent compared to 14 percent).",
+      "SOURCE": "overlooked"
+   },
+   "CARD-06": {
+      "REFORM TITLE": "Social Worker",
+      "SHORT DESCRIPTION": " Make a social worker available to justice-involved individuals to help them navigate the complex system ",
+      "LONG DESCRIPTION": "",
+      "COST": " $ 75,000.00 ",
+      "TOTAL MAX REDUCTION": "5%",
+      "FACT (kr)": "",
+      "SOURCE": "http://www.bronxdefenders.org/our-work/soc-work/"
+   },
+   "CARD-07": {
+      "REFORM TITLE": "Pretrial Supervision",
+      "SHORT DESCRIPTION": " Monitor defendants using pretrial supervision instead of detaining them in jail ",
+      "LONG DESCRIPTION": " Pretrial supervision, or monitoring and assisting defendants before the resolution of their case, makes it possible for judges to release higher-risk people who would otherwise be detained. Pretrial service officers help ensure people will appear for their court dates and avoid re-arrest by checking in with reminders and referrals to services in the community. Washington, D.C. is using pretrial supervision instead of cash bail and releases roughly 85% of its defendants – with just 11% rearrested while released.  ",
+      "COST": " $ 150,000.00 ",
+      "TOTAL MAX REDUCTION": "15%",
+      "FACT (kr)": "Developing the capacity to monitor and assist defendants\nduring the pretrial period makes it possible for judges and other\ncourt officers who make release and detention decisions to release higher-risk\npeople who would otherwise be detained pending trial. The work\nwith defendants typically involves establishing specific parameters for their\nbehavior during the pretrial period and linking them with service providers\nin the community to help them address longstanding problems and\nremind them about upcoming court dates.g Washington, DC’s Pretrial Services\nAgency (DCPTS) has a very robust release and supervision program:\n85 percent of defendants are released on ROR or with conditions supervised\nby DCPTS—and of that 85 percent, in 2012, just 11 percent were\nrearrested while released, and 11 percent failed to appear.h",
+      "SOURCE": "https://storage.googleapis.com/vera-web-assets/downloads/Publications/incarcerations-front-door-the-misuse-of-jails-in-america/legacy_downloads/incarcerations-front-door-report_02.pdf"
+   },
+   "CARD-08": {
+      "REFORM TITLE": "Pretrial Risk Assessment Instrument (no cash bail)",
+      "SHORT DESCRIPTION": " Use pretrial risk assessment to measure likelihood a person will fail to appear at court if released back into community ",
+      "LONG DESCRIPTION": " Pretrial risk assessment is used to measure the likelihood a person will reoffend or fail to appear for court if they are released into the community before their case is resolved, with some jurisdictions turning to risk assessments in lieu of cash bail. Risk tools should ALWAYS be validated, or proven effective, and not create greater disparities based on things like race, ethnicity, or gender. One example state, Kentucky, has a single statewide agency for all local jurisdictions that assesses defendants using risk assessment instruments. Kentucky releases about 70% of all defendants pretrial, with only 4% requiring bail. ",
+      "COST": " $ 250,000.00 ",
+      "TOTAL MAX REDUCTION": "20%",
+      "FACT (kr)": "(1)  For example, in New York City in 2013, 54 percent of\njail inmates held until their cases had been disposed remained in jail because\nthey could not afford bail of $2,500 or less—with 31 percent of the non-felony\ndefendants held on bond amounts of $500 or less. (2)   There are a variety of assessment tools available for different\npurposes. Risk assessment instruments\nmeasure the likelihood that a person will reoffend if or when released\ninto the community... Judges and releasing authorities use information from\nassessment tools to guide decisions regarding pretrial release or detention ...assignment to supervision level or to specialized\ncaseloads, and for recommendations regarding conditions of release. . Kentucky has a single\nstatewide agency that assesses all defendants\nusing a locally validated risk\nassessment instrument. In recent years,\nthe court has released 70 percent of all defendants pretrial, with only four percent\nrequiring bail.a\n ",
+      "SOURCE": "front door"
+   },
+   "CARD-09": {
+      "REFORM TITLE": "Court Date Reminders",
+      "SHORT DESCRIPTION": " Send court date reminders to prevent people forgetting and failing to appear  ",
+      "LONG DESCRIPTION": " Many people fail to appear for court because they are confused or forget the date(s) of their hearing(s). One county in Arizona found that 23% of its jail population was made up of people detained after missing court appearances. After testing court reminder systems in which a caller spoke to the defendant, the county reduced its failure-to-appear rate from 25% to 6%. ",
+      "COST": " $ 50,000.00 ",
+      "TOTAL MAX REDUCTION": "5%",
+      "FACT (kr)": "n 2006, Cocinino County, Arizona found that about 23 percent of the jail\npopulation were defendants who were detained after failing to appear at\nscheduled court dates. The county tested several court reminder systems for\ndefendants who received citations in the field. The failure to appear rate was\nreduced from 25 percent in the control group to six percent in the reminder group when the caller spoke directly to the defendant, 15 percent when a\nmessage was left with another person, and 21 percent when a message was\nleft on an answering service",
+      "SOURCE": "front door"
+   },
+   "CARD-10": {
+      "REFORM TITLE": "Backlog Reduction",
+      "SHORT DESCRIPTION": " Reduce the court system’s case backlog – an excess of pending cases makes it impossible to have a speedy trial and allows high-risk individuals to commit crimes while awaiting trial. ",
+      "LONG DESCRIPTION": " Example: Detroit eliminated its court backlog the city's crime rate fell below the national average. The reason: Repeat offenders weren't committing additional crimes while out on bail awaiting trial. ",
+      "COST": " $ 35,000.00 ",
+      "TOTAL MAX REDUCTION": "5%",
+      "FACT (kr)": "",
+      "SOURCE": "http://www.csmonitor.com/1981/1127/112745.html"
+   },
+   "CARD-11": {
+      "REFORM TITLE": "Continuance Policy/Reviews",
+      "SHORT DESCRIPTION": " Reduce continuances (extensions and reschedulings of court proceedings) to avoid excessively delaying proceedings – because delayed proceedings increase length of jail stay.  ",
+      "LONG DESCRIPTION": "",
+      "COST": " $ 35,000.00 ",
+      "TOTAL MAX REDUCTION": "3%",
+      "FACT (kr)": "",
+      "SOURCE": "http://cdm16501.contentdm.oclc.org/cdm/ref/collection/ctadmin/id/1484"
+   },
+   "CARD-12": {
+      "REFORM TITLE": "Alternative to Incarceration--Job Readiness",
+      "SHORT DESCRIPTION": " Invest in job readiness programs to prepare defendants for successful employment – this helps prevent recidivism ",
+      "LONG DESCRIPTION": " Job readiness programs prepare defendants for successful employment to help prevent recidivism and provide economic stability. In New York, for example, of those who completed the Court Employment Project job readiness program, nearly 90% avoided any new conviction within two years. Recent studies estimate these types of programs can save taxpayers $8 for every $1 invested in them. ",
+      "COST": " $ 150,000.00 ",
+      "TOTAL MAX REDUCTION": "5%",
+      "FACT (kr)": "Despite these high risk levels, 55-60% of CEP youth successfully complete the program every year, thereby fulfilling their court obligations and avoiding incarceration. Among those who complete the program, nearly 90% have avoided any new conviction within two years of completing CEP. Recent studies estimate programs like CEP that reduce recidivism and divert youth from incarceration can save taxpayers $8 in correctional costs for every $1 invested.5",
+      "SOURCE": "https://www.cases.org/programs/court-employment-project/"
+   },
+   "CARD-13": {
+      "REFORM TITLE": "Alternative to Incarceration--Treatment",
+      "SHORT DESCRIPTION": " Refer people in need to mental health and substance use treatment instead of sentencing jail time ",
+      "LONG DESCRIPTION": " Many people who become involved with the criminal justice system are in dire need of mental health or substance-use treatment. One Seattle program that links people with mental illnesses or substance-use disorders to supportive housing instead of jail has resulted in a 45% reduction of jail bookings, a 42% reduction in jail days, and is estimated to have saved taxpayers more than $4 million in one year alone. ",
+      "COST": " $ 150,000.00 ",
+      "TOTAL MAX REDUCTION": "5%",
+      "FACT (kr)": "An evaluation of a program in Seattle that linked people with chronic\nco-occurring mental health and substance-use disorders to supportive\nhousing showed improved outcomes in health and housing: a 45 percent\nreduction in jail bookings and a 42 percent reduction in jail days, generating\nmore than $4 million in cost-savings to public services after one year.30",
+      "SOURCE": "http://archive.vera.org/sites/default/files/resources/downloads/treatment-alternatives-to-incarceration.pdf"
+   },
+   "CARD-14": {
+      "REFORM TITLE": "Risk-Based Probation Supervision",
+      "SHORT DESCRIPTION": " Use a risk-factor rating system to monitor those at risk without devoting staff time or resources on people who are not a danger and may be negatively affected by overmonitoring ",
+      "LONG DESCRIPTION": " Risk-based probation supervision is a good way to ensure that high-risk individuals are monitored effectively without wasting staff resources on low-risk people, whose risks increase from excessive conditions of supervision. By redirecting existing resources, agencies\ncan provide more intensive supervision, treatment, and services to those at greater risk of new offenses and re-arrest.\n ",
+      "COST": " $ 200,000.00 ",
+      "TOTAL MAX REDUCTION": "10%",
+      "FACT (kr)": "Too many supervision agencies waste valuable resources—staff time and purchased\nservices—on low-risk offenders who actually may be harmed by excessive\nsupervision and programming. By redirecting existing resources agencies\ncan provide more intensive supervision, treatment, and services to medium\nand high-risk parolees and probationers.\nHowever, redirected resources alone are not always sufficient to substantially\nimprove public safety. Securing this requires more officers, lower caseloads,\nbetter training, and funds to purchase services and treatment for medium and\nhigh-risk offenders. Therefore, states and counties may need to invest additional\nresources upfront to make communities safer. ",
+      "SOURCE": "http://archive.vera.org/sites/default/files/resources/downloads/potential-of-community-corrections.pdf"
+   },
+   "CARD-15": {
+      "REFORM TITLE": "Graduated Response Sanctions",
+      "SHORT DESCRIPTION": " Use graduated sanctions that vary based on the degree of the violation – instead of a one-size-fits-all approach. ",
+      "LONG DESCRIPTION": " Probation officers often express the fear that, if they do not send people to jail for lower-level supervision violations, a supervisee may commit a more serious offense in the future. Graduated sanctions give them options that are proportionate to the violation—such as enhanced supervision terms or brief jail stays—and don’t rely on overly punitive responses. ",
+      "COST": " $ 50,000.00 ",
+      "TOTAL MAX REDUCTION": "10%",
+      "FACT (kr)": "Revocation to jail or prison is a severe, expensive, and mostly ineffective sanction\nfor some supervision violations. Yet officers often express the fear that, if\nthey do not revoke for lower-level violations, a supervisee may commit a more\nserious offense later on for which the officer and his or her agency will be\nheld liable. Many jurisdictions have addressed this concern by formally adopting\npolicies that support a system of graduated responses for rules violations\nand offer individual officers legal protection. These policies are grounded in\na growing body of research showing the importance of responding to every\ninfraction; the key is to respond appropriately and proportionately. From a\nmissed appointment to a failed drug test, there are many behaviors that can be\nsafely met with prompt, defined sanctions that are proportional to the violation\nand address the reasons the violation occurred.59 Providing a continuum\nof responses that includes both programming interventions and sanctions\n(such as an official reprimand from a senior supervising officer, more frequent\nreporting, a new curfew, or time-limited travel restrictions) gives officers the\ntools to respond to every violation while allowing them to continue interacting\nand working with their supervisees through difficult periods. ",
+      "SOURCE": "http://archive.vera.org/sites/default/files/resources/downloads/potential-of-community-corrections.pdf"
+   },
+   "CARD-16": {
+      "REFORM TITLE": "Warrant Resolution Event",
+      "SHORT DESCRIPTION": " Create a warrant backlog reduction court to help people resolve outstanding warrants and avoid re-arrest.  ",
+      "LONG DESCRIPTION": " Many of these warrants come from missed hearings or meeting, low-risk mistakes that can be personally and professionally costly.  ",
+      "COST": " $ 25,000.00 ",
+      "TOTAL MAX REDUCTION": "5%",
+      "FACT (kr)": "",
+      "SOURCE": "https://webcms.pima.gov/UserFiles/Servers/Server_6/File/Government/Administration/CHHmemosFor%20Web/December%201/Evening%20and%20Weekend%20Justice%20Court%20Benefits.pdf"
+   },
+   "CARD-17": {
+      "REFORM TITLE": "Peer Navigators",
+      "SHORT DESCRIPTION": " Enlist peer navigators – comprised of those formerly involved with the justice system – to assist with Wellness Recovery Action Plans that assist in exiting the justice system.  ",
+      "LONG DESCRIPTION": "",
+      "COST": " $ 35,000.00 ",
+      "TOTAL MAX REDUCTION": "5%",
+      "FACT (kr)": "slide 13",
+      "SOURCE": "https://www.samhsa.gov/sites/default/files/programs_campaigns/recovery_to_practice/rtp-cj2-012417.pdf"
+   },
+   "CARD-18": {
+      "REFORM TITLE": "Justice Impacted Advisory Board",
+      "SHORT DESCRIPTION": " Create a community advisory board comprising of former justice system-involved citizens to help guide reform efforts  ",
+      "LONG DESCRIPTION": " Community advisory boards provide community members with a forum to air concerns, learn about the justice system, and steer new initiatives. They bring in voices and perspectives that are sometimes overlooked—especially from those that have experienced the system first hand. ",
+      "COST": " $ 50,000.00 ",
+      "TOTAL MAX REDUCTION": "3%",
+      "FACT (kr)": "Community advisory boards provide community members with a forum to air concerns, learn about the justice system, and steer new initiatives. They bring in voices and perspectives that are sometimes overlooked. And they send a strong symbolic message about accountability",
+      "SOURCE": "http://www.courtinnovation.org/sites/default/files/documents/CommunityAdvisoryBoards.pdf"
+   }
 }

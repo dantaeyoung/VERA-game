@@ -175,6 +175,11 @@ body {
 	opacity: 0.9;
 }
 
+.card_long_description .keyimg {
+	width: 100px;
+	float: left;
+	margin-right: 10px;
+}
 .card_long_description.hovering { 
 	display: block;
 }

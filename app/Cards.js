@@ -32,8 +32,9 @@ Cards.makeHtmlCards = function(carddata) {
       </div>");
     thisCard.appendTo("#cards");
 
-
+		var imgName = Cards.cardToHighlight(k).replace("H-", "KEY-") + ".png";
 		var thisLongD = $("<div id='" + k + "_LD' class='card_long_description'>\
+      <img class='keyimg' src='assets/KeyIcons/" + imgName + "' />\
       <span class='words'>" + v['LONG DESCRIPTION'] + "</span>\
       </div>");
     thisLongD.appendTo("#card_long_descriptions");
