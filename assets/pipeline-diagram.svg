@@ -20,7 +20,7 @@
 	.st12{fill:none;stroke:#EF4136;stroke-width:3.36;stroke-miterlimit:10;}
 	.st13{fill:none;stroke:#EF4136;stroke-width:3.36;stroke-miterlimit:10;stroke-dasharray:3.1802,2.5441;}
 	.st14{fill:none;stroke:#EF4136;stroke-width:4.1174;stroke-miterlimit:10;}
-	.st15{font-size:10px;}
+	.st15{font-size:11px;}
 	.st16{fill:none;stroke:#EF4136;stroke-width:6.1272;stroke-miterlimit:10;}
 	.st17{fill:none;stroke:#EF4136;stroke-width:5;stroke-miterlimit:10;}
 	.st18{fill:none;stroke:#EF4136;stroke-width:5;stroke-miterlimit:10;stroke-dasharray:4.9844,3.9875;}
@@ -4102,11 +4102,11 @@ RERMeImIiIiImPASERERES1J//8AQgQTMMnuljoAAAAASUVORK5CYII=" transform="matrix(0.13
 		</g>
 	</g>
 	<polygon class="st4" points="785.5,376.7 607.5,376.2 607.5,360.2 785.5,360.2 	"/>
-	<text transform="matrix(1 0 0 1 631.0306 371.1774)" class="st9 st15">Flow of people through the system</text>
+	<text transform="matrix(1 0 0 1 615.5819 371.8776)" class="st9 st15">Flow of people through the system</text>
 	<polygon class="st4" points="785.5,344.7 607.5,344.2 607.5,328.2 785.5,328.2 	"/>
-	<text transform="matrix(1 0 0 1 724.6796 339.1774)" class="st9 st15">Direct impact</text>
+	<text transform="matrix(1 0 0 1 718.5956 339.8776)" class="st9 st15">Direct impact</text>
 	<polygon class="st4" points="785.5,360.7 607.5,360.2 607.5,344.2 785.5,344.2 	"/>
-	<text transform="matrix(1 0 0 1 717.5292 355.1774)" class="st9 st15">Indirect impact</text>
+	<text transform="matrix(1 0 0 1 710.7303 355.8776)" class="st9 st15">Indirect impact</text>
 </g>
 <g id="Highlights">
 	<g id="H-ARREST">

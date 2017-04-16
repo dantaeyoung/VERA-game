@@ -21,6 +21,8 @@ Cards.cardToHighlight = function(cardId) {
 }
 
 Cards.makeHtmlCards = function(carddata) {
+
+//	carddata.descriptions = _.shuffle(carddata.descriptions);
   _.each(carddata.descriptions, function(v, k) {
 
     var thisCost = globalModel.data.cards.descriptions[k].COST.replace(/ /g, "");
@@ -63,6 +65,7 @@ Cards.makeHtmlCards = function(carddata) {
 			$('.hovering').css({'top': e.pageY+ 20, 'left': e.pageX + 10});
     });
 
+		$(".card").shuffle();
 
   });
 

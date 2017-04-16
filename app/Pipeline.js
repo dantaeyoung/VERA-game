@@ -73,6 +73,14 @@ Pipeline.docReady = function() {
 
   }
 
+	$("#splashscreen").css("cursor", "progress");
+	setTimeout(function(){ // only let clicking out after
+		$("#splashscreen").css("cursor", "pointer");
+		$("#splashscreen").click(function(e) {
+			$("#splashscreen").fadeOut(1000);
+		})
+	}, 6000);
+
 };
 
 Pipeline.highlightAnimate = function(highlight) {

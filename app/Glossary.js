@@ -14,8 +14,6 @@ Glossary.dataReady = function() {
 Glossary.makeHtmlGlossary = function(glossarydata) {
   _.each(glossarydata, function(v, k) {
 
-  console.log("this hsould be a card");
-    console.log(v);
 
     var thisGloss = $("<div id='G-" + k + "' class='glossary'>\
       <div class='term'>" + v['Word'] + ":</div>\
