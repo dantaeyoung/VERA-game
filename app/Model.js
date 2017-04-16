@@ -28,7 +28,7 @@ Model.prototype.updateScoreState = function() {
 			if(!stepName.match(/name/)) { // skip over column if we have the name. this is annoyingly manual but due to our data constraints
 				if(!(stepName in self.state.stepScores)) { self.state.stepScores[stepName] = 0; }
 
-				// TODO: calculating step scores should be - highest score plus 1/2 of total of all over scores
+				// TODO: calculating step scores should be - highest score plus 1/2 of total of all other scores
 				self.state.stepScores[stepName] += parseFloat(stepVal);
 
 			}
