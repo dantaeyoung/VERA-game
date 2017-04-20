@@ -8,6 +8,7 @@ $(function() {
   Pipeline.docReady();
   Cards.docReady();
   Scores.docReady();
+  Splash.docReady();
 
   $.when(
 		$.getJSON("assets/card_impacts.json"),
