@@ -2,8 +2,8 @@
 ### A game about Utilizing Reform to #RethinkJails 
 
 - By: Luisa Miranda, Kindred Motes, Robert Schroeder, Kristi Riley, Dan Taeyoung, Vere van Gool, Jordan White 
-- Created at NEW INC's Create and Advocate: http://www.newinc.org/create-advocate
-- For: [The Vera Institute of Justice](https://www.vera.org/)
+- Created at NEW INC's [Create and Advocate](http://www.newinc.org/create-advocate) event
+- For/With: [The Vera Institute of Justice](https://www.vera.org/)
   - with Kindred Motes (Digital Community Manager @ Vera Institute) and Kristi Riley (Program Associate @ Vera Institute)
 - Two days of work: April 15 - April 16, 2017
 
