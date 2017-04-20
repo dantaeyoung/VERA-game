@@ -12,6 +12,7 @@ Splash.docReady = function() {
 
   $(".splashimage.last").click(function() {
     $("#splashscreen").fadeOut(1000);
+    Scores.displayInitialScores();
   });
 
 };

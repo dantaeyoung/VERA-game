@@ -34,7 +34,9 @@ Scores.dataReady = function() {
   Scores.display_average_daily_population = new CountUp("average_daily_population", 0.00, 0);
   Scores.display_average_los = new CountUp("average_los", 0.00, 0);
   Scores.display_yearly_admissions = new CountUp("yearly_admissions", 0.00, 0);
+};
 
+Scores.displayInitialScores = function() {
 
   Scores.displayBudget.update(globalModel.state.budget);
   Scores.display_average_daily_population.update(globalModel.state.initialScores.average_daily_population);
