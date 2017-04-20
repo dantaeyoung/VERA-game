@@ -3,14 +3,19 @@ var Scores = {};
 Scores.updateState = function(state) {
   console.log(state.stepScores);
   _.each(state.stepScores, function(v, k) {
-    v = Helpers.calcScore(v, k);
-    $("#" + k).html(v);
+    if(!(k.match(/^_/))) {
+      v = Helpers.calcScore(v, k);
+      console.log('display_' + k);
+      Scores['display_' + k].update(v);
+      Pipeline.flashScore(k);
+    }
   });
-  $("#budget").html(Helpers.commaSep(state.budget));
+  Scores.displayBudget.update(state.budget);
+  Pipeline.flashScore("budget");
+
 }
 
 Scores.docReady = function() {
-
 }
 
 Scores.dataReady = function() {
@@ -24,9 +29,16 @@ Scores.dataReady = function() {
       $("<div id=" + name + " class=score>0</div>").appendTo("#scores");
     }
   });
-  $("#budget").html(Helpers.commaSep(globalModel.state.budget));
-  $("#average_daily_population").html(globalModel.state.initialScores.average_daily_population);
-  $("#average_los").html(globalModel.state.initialScores.average_los);
-  $("#yearly_admissions").html(globalModel.state.initialScores.yearly_admissions);
+
+  Scores.displayBudget = new CountUp("budget", 0.00, 0);
+  Scores.display_average_daily_population = new CountUp("average_daily_population", 0.00, 0);
+  Scores.display_average_los = new CountUp("average_los", 0.00, 0);
+  Scores.display_yearly_admissions = new CountUp("yearly_admissions", 0.00, 0);
+
+
+  Scores.displayBudget.update(globalModel.state.budget);
+  Scores.display_average_daily_population.update(globalModel.state.initialScores.average_daily_population);
+  Scores.display_average_los.update(globalModel.state.initialScores.average_los);
+  Scores.display_yearly_admissions.update(globalModel.state.initialScores.yearly_admissions);
 
 };

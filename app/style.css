@@ -245,7 +245,7 @@ body {
 	align-items: center;
 	justify-content: center;
 	flex-direction: row;
-	/*display: none;*/
+  display: none;
 }
 
 #splashback {

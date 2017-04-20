@@ -76,6 +76,37 @@ Pipeline.docReady = function() {
 	
 };
 
+Pipeline.flashScore = function(sid) {
+  //$("R-" + sid);.data('org-background-color', $(sel).css("background-color"));
+  var s = Snap("#R-" + sid);
+  Snap.animate(1, 0.2, function(v) {
+      s.attr({ 'opacity': v });
+    }, 200, function() {
+      s.attr({ "fill" : "red" });
+      Snap.animate(0.2, 1, function(v) {
+          s.attr({ 'opacity': v });
+        }, 400, function() {
+          Snap.animate(1, 0.2, function(v) {
+              s.attr({ 'opacity': v });
+            }, 400, function() {
+
+            s.attr({ "fill" : "black" });
+
+            Snap.animate(0.2, 1, function(v) {
+                s.attr({ 'opacity': v });
+              }, 600, function() {
+            })
+
+
+          })
+
+
+      })
+  });
+}
+
+
+
 Pipeline.highlightAnimate = function(highlight) {
   var s = Snap("#" + highlight);
   Snap.animate(1,0, function( value ) {
