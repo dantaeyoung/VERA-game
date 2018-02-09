@@ -27,6 +27,10 @@ body {
 	height: 550px;
 }
 
+g text {
+  font-family: 'Lato', sans-serif;
+}
+
 #scores {
 	position: absolute;
 	left: -48px;
@@ -210,7 +214,7 @@ body {
 	font-size: 0.9em;
 	position: absolute;
 	top: 0px;
-	width: 400px;
+	width: 300px;
 	padding: 20px;
 	border: 5px solid #EF4134;
 	border-radius: 10px;
@@ -233,7 +237,7 @@ body {
 	font-size: 0.9em;
 	position: absolute;
 	top: 0px;
-	width: 250px;
+	width: 300px;
 	padding: 20px;
 	border: 5px solid #EF4134;
 	border-radius: 10px;

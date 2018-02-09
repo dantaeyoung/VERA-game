@@ -62,7 +62,7 @@ Cards.makeHtmlCards = function(carddata) {
     });
 
     $(document).mousemove(function(e){
-			$('.hovering').css({'top': e.pageY+ 20, 'left': e.pageX - 450});
+			$('.hovering').css({'top': e.pageY+ 20, 'left': e.pageX - 360});
     });
 
 //		$(".card").shuffle();
