@@ -65,7 +65,7 @@ Cards.makeHtmlCards = function(carddata) {
 			$('.hovering').css({'top': e.pageY+ 20, 'left': e.pageX - 450});
     });
 
-		$(".card").shuffle();
+//		$(".card").shuffle();
 
   });
 
