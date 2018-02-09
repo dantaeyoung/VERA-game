@@ -6,9 +6,9 @@ body {
 .flexcontainer {
   height:100%;
   display: flex;
-  align-items: center;
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
+	align-items: center;
 }
 
 .centerdiv {
@@ -17,9 +17,8 @@ body {
 #modeldiv {
 	width: 900px;
 	height: 550px;
-  border: 10px solid #AAA;
-	border-radius: 10px;
 	position: relative;
+  margin-top: 0px;
 }
 
 
@@ -111,23 +110,49 @@ body {
 #Buttons rect {
 	cursor: pointer;
 }
-
-.title_header {
-	margin: 10px 5px;
-  font-family: 'GT-Sectra-Medium', Arial, sans-serif;
-	font-size: 2em;
-	
+#title_header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+	padding: 20px 5px;
+  text-align: center;
+  z-index: 1000;
+  margin: 0;
 }
 
-#cardsall {
-	position: fixed;
+.whole_title {
+	font-size: 1.8em;
+  font-family: 'GT-Sectra-Medium', Arial, sans-serif;
+	color: #EF4134;
+  margin-bottom: 10px;
+}
+
+.policy_cards_title {
+  margin-left: 66vw;
+  text-align: left;
+}
+
+
+
+#title_header {
+  font-family: 'GT-Sectra-Medium', Arial, sans-serif;
+	font-size: 1.2em;
+}
+
+#graphcontainer {
 	text-align: center;
 	background-color: white;
-	top: 0px;
+}
+
+#cardscontainer {
+  overflow: auto;
+  height: 100vh;
 }
 #cards {
-	width: 1000px;
 	padding-bottom: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 120px;
 }
 
 #hoverstuff {
@@ -135,7 +160,8 @@ body {
 }
 
 #cards_header {
-	margin-top: 580px;
+  margin-top: 60px;
+  text-decoration: underline;
 }
 
 .card {
